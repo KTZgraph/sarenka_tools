@@ -1,2 +1,2 @@
 # sarenka_tools
-Features as one file script
+Features from https://github.com/pawlaczyk/sarenka/ as one file script
