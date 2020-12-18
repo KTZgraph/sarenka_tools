@@ -1,2 +1,2 @@
 # sarenka_tools
-Features from https://github.com/pawlaczyk/sarenka/ as one file script
+Tools for sarenka and files which manual generation takes couple of minutes
