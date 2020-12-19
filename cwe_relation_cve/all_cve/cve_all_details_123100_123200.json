@@ -1,0 +1,502 @@
+[
+    {
+        "cve_code": "CVE-2008-2572",
+        "year": "2008",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2008-1453",
+        "year": "2008",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2007-1899",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2007-3650",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2007-3651",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2007-3652",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2007-3653",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2007-5400",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-0085",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-0086",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-0106",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-0107",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1435",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1447",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1588",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1589",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1590",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1663",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1665",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1666",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1667",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1676",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1678",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1809",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-1946",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2232",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2244",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2247",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2248",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2303",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2304",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2308",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2309",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2310",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2311",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2313",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2314",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2317",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2318",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2371",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2372",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2374",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2375",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2376",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2430",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2463",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2576",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2577",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2578",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2579",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2580",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2581",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2582",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2583",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2585",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2586",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2587",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2589",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2590",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2591",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2592",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2593",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2594",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2595",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2596",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2597",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2598",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2599",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2600",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2601",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2602",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2603",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2604",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2605",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2606",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2607",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2608",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2609",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2610",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2611",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2612",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2613",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2614",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2615",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2616",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2617",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2618",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2620",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2621",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2622",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2667",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2798",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2799",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2800",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2801",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2802",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2803",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2805",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2806",
+        "year": "2008",
+        "month": "7"
+    },
+    {
+        "cve_code": "CVE-2008-2807",
+        "year": "2008",
+        "month": "7"
+    }
+]

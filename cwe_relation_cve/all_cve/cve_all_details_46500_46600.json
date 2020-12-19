@@ -1,0 +1,502 @@
+[
+    {
+        "cve_code": "CVE-2018-4141",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4159",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4171",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4184",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4187",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4188",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4190",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4192",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4193",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4196",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4198",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4199",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4200",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4201",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4202",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4204",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4205",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4206",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4211",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4214",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4215",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4218",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4219",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4220",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4221",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4222",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4223",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4224",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4225",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4226",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4227",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4228",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4229",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4230",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4232",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4233",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4234",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4235",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4236",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4237",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4238",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4239",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4240",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4241",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4242",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4243",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4244",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4246",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4247",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4249",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4250",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4251",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4252",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-4253",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-1281",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-0225",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12020",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12085",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12088",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-10360",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12025",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12089",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12090",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12092",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12093",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12094",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12095",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12099",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12100",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12102",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12108",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12109",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12110",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12111",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-12112",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2011-4181",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2017-3199",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2017-3200",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2017-3201",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2017-3202",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2017-3203",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2017-3206",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2017-3207",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2017-3208",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-6512",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-6513",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-6514",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2018-6515",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5287",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5288",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5289",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5290",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5291",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5292",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5293",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5294",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5295",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5296",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5297",
+        "year": "2018",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2016-5298",
+        "year": "2018",
+        "month": "6"
+    }
+]

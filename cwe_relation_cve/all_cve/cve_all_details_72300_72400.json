@@ -1,0 +1,502 @@
+[
+    {
+        "cve_code": "CVE-2017-1000228",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000238",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000239",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000240",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000241",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000231",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000232",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000234",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000235",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000236",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000237",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000246",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000247",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000248",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000125",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000129",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000158",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000160",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000164",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000223",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000225",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000226",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000229",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16868",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16869",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16870",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16871",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16872",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-10886",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-10887",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-10888",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-10889",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-10890",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-4927",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-4928",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-4929",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-4934",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-4935",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-4936",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-4937",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-4938",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000203",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000206",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000211",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000212",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16875",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000191",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000192",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16819",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16877",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000168",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000169",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000170",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000222",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000233",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-13700",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-13702",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-13703",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000161",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-6168",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000204",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000215",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-14111",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16845",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000163",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000190",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000227",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000230",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16880",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-4939",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000126",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000127",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000128",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000217",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-1000221",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16566",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-14077",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16881",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16882",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16883",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16892",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16894",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-15110",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2016-6804",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-11400",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-11401",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-11402",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16544",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16896",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16898",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-9806",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16899",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16902",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-12607",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-15527",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16903",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16904",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-12608",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16906",
+        "year": "2017",
+        "month": "11"
+    },
+    {
+        "cve_code": "CVE-2017-16907",
+        "year": "2017",
+        "month": "11"
+    }
+]

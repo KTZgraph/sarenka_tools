@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-from .cwe_mitre_scrapper import CWEMitreScraper
+from cwe_mitre_scrapper import CWEMitreScraper
 
 
 class NISTCVEScraper:
@@ -86,19 +86,13 @@ class NISTCVEScraper:
 
         return result
 
-    def get_cwe(self, soup):
-        result = []
+    def get_id_cwe(self, soup):
         table = soup.find("table", {"data-testid": "vuln-CWEs-table"})
         td_list = table.findAll("td")
         for td in td_list:
             if td.find("a"):
                 id_cwe = td.find("a").text
-                mitre_url = td.find("a")["href"]
-                result.append({
-                    "id_cwe": id_cwe,
-                })
-
-        return result  # poiwnie być jeden ale paranoik zawsze ubezpieczony
+                return id_cwe  # poiwnie być jeden ale paranoik zawsze ubezpieczony
 
     def get_cpe(self, soup):
         """
@@ -146,19 +140,20 @@ class NISTCVEScraper:
             "span", {"data-testid": "vuln-current-description-source"})
         return modified.text
 
-    def get_data(self):
+    @property
+    def values(self):
         source = requests.get(self.cve_url).text
         soup = BeautifulSoup(source, 'lxml')
 
         return {
-            "cve": self.id_cve,
+            "cve_id": self.id_cve,
+            "cwe_id": self.get_id_cwe(soup),
             "description": self.get_description(soup),
             "cvss3": self.get_cvss3_vector(soup),
             "cvss2": self.get_cvss2_vector(soup),
             "base_score_v3": self.get_base_score_v3(soup),
             "base_score_v2": self.get_base_score_v2(soup),
             "hyperlinks": self.get_hyperlinks(soup),
-            "cwe": self.get_cwe(soup),
             "cpe": self.get_cpe(soup),
             "published_date": self.get_published_date(soup),
             "modified_date": self.get_last_modified(soup),

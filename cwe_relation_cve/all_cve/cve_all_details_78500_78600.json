@@ -1,0 +1,502 @@
+[
+    {
+        "cve_code": "CVE-2016-4705",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4719",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4740",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4741",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4746",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4747",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4749",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6402",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6403",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6404",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6405",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-0870",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-1483",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4526",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4860",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5814",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6415",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6535",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6536",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6537",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8915",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8916",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8917",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8918",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8919",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8920",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8921",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8922",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8923",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8924",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8925",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8926",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8927",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8928",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8929",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8930",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8931",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8932",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8933",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8934",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6662",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6802",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8960",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-0903",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-0904",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-0905",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-0917",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-0920",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-0921",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-0925",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4382",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4384",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6530",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2015-8871",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4300",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4301",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4302",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4809",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4965",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4966",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4967",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4968",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4969",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5017",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5418",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5426",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5427",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5844",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6158",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6159",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6250",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6354",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6801",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-7092",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-7093",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-7094",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-7143",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-7154",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-7163",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-7166",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-3632",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-3945",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-3990",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-3991",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-4464",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5247",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6265",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6322",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6340",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6525",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6669",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-6824",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2014-2146",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-2827",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5256",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5257",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5270",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5271",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5272",
+        "year": "2016",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2016-5273",
+        "year": "2016",
+        "month": "9"
+    }
+]

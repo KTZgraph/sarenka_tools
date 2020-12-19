@@ -1,0 +1,502 @@
+[
+    {
+        "cve_code": "CVE-2000-0153",
+        "year": "1999",
+        "month": "3"
+    },
+    {
+        "cve_code": "CVE-2000-0371",
+        "year": "1999",
+        "month": "3"
+    },
+    {
+        "cve_code": "CVE-1999-0287",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0439",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0443",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0444",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0445",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0446",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0447",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0466",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0467",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0468",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0469",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0470",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0471",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0472",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0473",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0474",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0475",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0480",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0488",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0490",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0491",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0492",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0604",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0605",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0606",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0607",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0608",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0609",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0610",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0684",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0711",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0712",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0801",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0921",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-1196",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-1244",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-1245",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-1323",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-1369",
+        "year": "1999",
+        "month": "4"
+    },
+    {
+        "cve_code": "CVE-1999-0194",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0229",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0487",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0489",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0686",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0715",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0716",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0717",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0736",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0737",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0738",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0739",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0754",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0755",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0762",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0763",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0764",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0765",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0771",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0773",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0776",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0785",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0802",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0803",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0806",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0807",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0917",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0920",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0927",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0928",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1012",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1028",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1029",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1030",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1031",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1033",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1079",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1097",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1156",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1195",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1241",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1366",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1367",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1368",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1393",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1414",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1418",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1485",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1510",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1520",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1553",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-1566",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-2000-0333",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-2000-0412",
+        "year": "1999",
+        "month": "5"
+    },
+    {
+        "cve_code": "CVE-1999-0140",
+        "year": "1999",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-1999-0493",
+        "year": "1999",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-1999-0713",
+        "year": "1999",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-1999-0723",
+        "year": "1999",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-1999-0726",
+        "year": "1999",
+        "month": "6"
+    }
+]

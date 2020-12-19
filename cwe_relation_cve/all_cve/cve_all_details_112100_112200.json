@@ -1,0 +1,502 @@
+[
+    {
+        "cve_code": "CVE-2010-1769",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1770",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1771",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1774",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1775",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1848",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1849",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1850",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1879",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1880",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1885",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1904",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1929",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1930",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1931",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1932",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1937",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1958",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1960",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1961",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1962",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1963",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-1964",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2023",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2024",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2052",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2053",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2054",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2067",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2068",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2070",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2071",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2072",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2073",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2074",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2075",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2117",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2118",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2119",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2120",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2121",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2122",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2123",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2124",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2125",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2126",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2127",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2128",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2129",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2130",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2131",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2132",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2133",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2134",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2135",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2136",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2137",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2138",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2139",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2140",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2141",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2142",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2143",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2144",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2145",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2146",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2147",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2148",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2149",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2150",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2151",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2152",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2153",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2154",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2155",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2156",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2157",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2158",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2159",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2160",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2161",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2162",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2163",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2164",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2165",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2166",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2167",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2168",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2169",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2170",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2171",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2172",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2173",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2174",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2175",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2176",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2177",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2178",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2179",
+        "year": "2010",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2010-2180",
+        "year": "2010",
+        "month": "6"
+    }
+]

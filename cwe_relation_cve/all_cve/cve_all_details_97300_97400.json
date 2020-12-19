@@ -1,0 +1,502 @@
+[
+    {
+        "cve_code": "CVE-2013-2960",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-2961",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-2968",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-2969",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-2970",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-2980",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-2981",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3026",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3035",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3110",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3111",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3112",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3113",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3114",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3116",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3117",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3118",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3119",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3120",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3121",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3122",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3123",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3124",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3125",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3126",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3136",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3138",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3139",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3141",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3142",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3250",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3261",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3343",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3375",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3376",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3377",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3378",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3379",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3380",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3381",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3382",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3383",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3384",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3385",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3386",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3392",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3393",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3396",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3397",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3398",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3475",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3520",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3573",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3574",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3575",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3576",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3640",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3641",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3642",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3643",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3644",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3645",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3646",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3647",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3648",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3649",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3650",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3651",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3652",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3653",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3654",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3670",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3671",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3672",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3673",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3743",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3744",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3919",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3927",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3948",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3949",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3950",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3951",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3952",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3953",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3954",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3955",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3957",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3958",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3959",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-3970",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-4074",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-4075",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-4076",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-4077",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-4078",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-4079",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-4080",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-4081",
+        "year": "2013",
+        "month": "6"
+    },
+    {
+        "cve_code": "CVE-2013-4082",
+        "year": "2013",
+        "month": "6"
+    }
+]

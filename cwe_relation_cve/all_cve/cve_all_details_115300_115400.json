@@ -1,0 +1,502 @@
+[
+    {
+        "cve_code": "CVE-2008-6341",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-6342",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-6343",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-6344",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-6345",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-6346",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0009",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0011",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0012",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0013",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0014",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0015",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0017",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0018",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0019",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0020",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0028",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0036",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0040",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0058",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0059",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0061",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0062",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0075",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0076",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0095",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0096",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0097",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0098",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0099",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0114",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0137",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0138",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0139",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0140",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0141",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0142",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0183",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0184",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0187",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2002-2427",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2002-2428",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2002-2429",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2002-2430",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2002-2431",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2003-1568",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2003-1569",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2005-4878",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2007-5289",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-3074",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-3075",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-3076",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-4283",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-4284",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-4285",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-4308",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-4392",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-4419",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-4559",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-4560",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-4562",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-4914",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2008-4990",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0206",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0208",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0210",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0211",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0212",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0213",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0214",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0216",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0238",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0272",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0273",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0274",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0276",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0305",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0310",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0352",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0353",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0354",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0355",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0356",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0357",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0358",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0359",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0360",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0361",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0362",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0363",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0375",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0376",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0377",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0378",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0379",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0380",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0381",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0382",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0383",
+        "year": "2009",
+        "month": "2"
+    },
+    {
+        "cve_code": "CVE-2009-0384",
+        "year": "2009",
+        "month": "2"
+    }
+]

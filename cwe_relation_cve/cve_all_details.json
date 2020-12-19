@@ -1,0 +1,284 @@
+[
+    {
+        "cve_id": "CVE-2019-20203",
+        "cwe_id": "CWE-290",
+        "description": "The Authorized Addresses feature in the Postie plugin 1.9.40 for WordPress allows remote attackers to publish posts by spoofing the From information of an email message.",
+        "cvss3": {
+            "cvss3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "cvss3_url": "https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+        },
+        "cvss2": {
+            "cvss2": "(AV:N/AC:L/Au:N/C:N/I:P/A:N)",
+            "cvss2_url": "https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?vector=(AV:N/AC:L/Au:N/C:N/I:P/A:N)"
+        },
+        "base_score_v3": "5.3 MEDIUM",
+        "base_score_v2": "5.0 MEDIUM",
+        "hyperlinks": [
+            "https://github.com/V1n1v131r4/Exploiting-Postie-WordPress-Plugin-/blob/master/README.md",
+            "https://postieplugin.com/",
+            "https://wordpress.org/plugins/postie/#developers",
+            "https://wpvulndb.com/vulnerabilities/10002"
+        ],
+        "cpe": [
+            "*cpe:2.3:a:postieplugin:postie:*:*:*:*:*:wordpress:*:* versions up to (including) 1.9.40",
+            "*cpe:2.3:a:postieplugin:postie:*:*:*:*:*:wordpress:*:*",
+            "(including)"
+        ],
+        "published_date": "01/02/2020",
+        "modified_date": "08/24/2020",
+        "vulnerability_source": "MITRE"
+    },
+    {
+        "cve_id": "CVE-2019-20204",
+        "cwe_id": "CWE-79",
+        "description": "The Postie plugin 1.9.40 for WordPress allows XSS, as demonstrated by a certain payload with jaVasCript:/* at the beginning and a crafted SVG element.",
+        "cvss3": {
+            "cvss3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+            "cvss3_url": "https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+        },
+        "cvss2": {
+            "cvss2": "(AV:N/AC:M/Au:S/C:N/I:P/A:N)",
+            "cvss2_url": "https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?vector=(AV:N/AC:M/Au:S/C:N/I:P/A:N)"
+        },
+        "base_score_v3": "5.4 MEDIUM",
+        "base_score_v2": "3.5 LOW",
+        "hyperlinks": [
+            "http://packetstormsecurity.com/files/155973/WordPress-Postie-1.9.40-Cross-Site-Scripting.html",
+            "https://github.com/V1n1v131r4/Exploiting-Postie-WordPress-Plugin-/blob/master/README.md",
+            "https://postieplugin.com/",
+            "https://wordpress.org/plugins/postie/#developers",
+            "https://wpvulndb.com/vulnerabilities/10002"
+        ],
+        "cpe": [
+            "*cpe:2.3:a:postieplugin:postie:*:*:*:*:*:wordpress:*:* versions up to (including) 1.9.40",
+            "*cpe:2.3:a:postieplugin:postie:*:*:*:*:*:wordpress:*:*",
+            "(including)"
+        ],
+        "published_date": "01/02/2020",
+        "modified_date": "01/16/2020",
+        "vulnerability_source": "MITRE"
+    },
+    {
+        "cve_id": "CVE-2019-20205",
+        "cwe_id": "CWE-190",
+        "description": "libsixel 1.8.4 has an integer overflow in sixel_frame_resize in frame.c.",
+        "cvss3": {
+            "cvss3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+            "cvss3_url": "https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+        },
+        "cvss2": {
+            "cvss2": "(AV:N/AC:M/Au:N/C:P/I:P/A:P)",
+            "cvss2_url": "https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?vector=(AV:N/AC:M/Au:N/C:P/I:P/A:P)"
+        },
+        "base_score_v3": "8.8 HIGH",
+        "base_score_v2": "6.8 MEDIUM",
+        "hyperlinks": [
+            "https://github.com/saitoha/libsixel/issues/127"
+        ],
+        "cpe": [
+            "*cpe:2.3:a:libsixel_project:libsixel:1.8.4:*:*:*:*:*:*:*",
+            "*cpe:2.3:a:libsixel_project:libsixel:1.8.4:*:*:*:*:*:*:*"
+        ],
+        "published_date": "01/02/2020",
+        "modified_date": "01/06/2020",
+        "vulnerability_source": "MITRE"
+    },
+    {
+        "cve_id": "CVE-2019-20208",
+        "cwe_id": "CWE-787",
+        "description": "dimC_Read in isomedia/box_code_3gpp.c in GPAC 0.8.0 has a stack-based buffer overflow.",
+        "cvss3": {
+            "cvss3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "cvss3_url": "https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+        },
+        "cvss2": {
+            "cvss2": "(AV:N/AC:M/Au:N/C:N/I:N/A:P)",
+            "cvss2_url": "https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?vector=(AV:N/AC:M/Au:N/C:N/I:N/A:P)"
+        },
+        "base_score_v3": "5.5 MEDIUM",
+        "base_score_v2": "4.3 MEDIUM",
+        "hyperlinks": [
+            "https://github.com/gpac/gpac/issues/1348",
+            "https://lists.debian.org/debian-lts-announce/2020/01/msg00017.html"
+        ],
+        "cpe": [
+            "*cpe:2.3:a:gpac:gpac:0.8.0:*:*:*:*:*:*:*",
+            "*cpe:2.3:a:gpac:gpac:0.8.0:*:*:*:*:*:*:*"
+        ],
+        "published_date": "01/02/2020",
+        "modified_date": "01/20/2020",
+        "vulnerability_source": "MITRE"
+    },
+    {
+        "cve_id": "CVE-2019-20213",
+        "cwe_id": "CWE-200",
+        "description": "D-Link DIR-859 routers before v1.07b03_beta allow Unauthenticated Information Disclosure via the AUTHORIZED_GROUP=1%0a value, as demonstrated by vpnconfig.php.",
+        "cvss3": {
+            "cvss3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+            "cvss3_url": "https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        },
+        "cvss2": {
+            "cvss2": "(AV:N/AC:L/Au:N/C:P/I:N/A:N)",
+            "cvss2_url": "https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?vector=(AV:N/AC:L/Au:N/C:P/I:N/A:N)"
+        },
+        "base_score_v3": "7.5 HIGH",
+        "base_score_v2": "5.0 MEDIUM",
+        "hyperlinks": [
+            "https://medium.com/@s1kr10s/d-link-dir-859-unauthenticated-information-disclosure-en-faf1a9a13f3f",
+            "https://medium.com/@s1kr10s/d-link-dir-859-unauthenticated-information-disclosure-es-6540f7f55b03",
+            "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10146",
+            "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10147"
+        ],
+        "cpe": [
+            "cpe:2.3:h:dlink:dir-818lx:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-822:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-822:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-823:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-859:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-865l:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-868l:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-868l:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-869:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-880l:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-885l:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-885r:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-890l:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-890r:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-895l:-:*:*:*:*:*:*:*",
+            "cpe:2.3:h:dlink:dir-895r:-:*:*:*:*:*:*:*"
+        ],
+        "published_date": "01/02/2020",
+        "modified_date": "01/15/2020",
+        "vulnerability_source": "MITRE"
+    },
+    {
+        "cve_id": "CVE-2019-20218",
+        "cwe_id": "CWE-755",
+        "description": "selectExpander in select.c in SQLite 3.30.1 proceeds with WITH stack unwinding even after a parsing error.",
+        "cvss3": {
+            "cvss3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "cvss3_url": "https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "cvss2": {
+            "cvss2": "(AV:N/AC:L/Au:N/C:N/I:N/A:P)",
+            "cvss2_url": "https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?vector=(AV:N/AC:L/Au:N/C:N/I:N/A:P)"
+        },
+        "base_score_v3": "7.5 HIGH",
+        "base_score_v2": "5.0 MEDIUM",
+        "hyperlinks": [
+            "https://github.com/sqlite/sqlite/commit/a6c1a71cde082e09750465d5675699062922e387",
+            "https://lists.debian.org/debian-lts-announce/2020/08/msg00037.html",
+            "https://lists.debian.org/debian-lts-announce/2020/12/msg00016.html",
+            "https://security.gentoo.org/glsa/202007-26",
+            "https://usn.ubuntu.com/4298-1/",
+            "https://www.oracle.com/security-alerts/cpuapr2020.html"
+        ],
+        "cpe": [
+            "*cpe:2.3:a:sqlite:sqlite:3.30.1:*:*:*:*:*:*:*",
+            "*cpe:2.3:a:sqlite:sqlite:3.30.1:*:*:*:*:*:*:*"
+        ],
+        "published_date": "01/02/2020",
+        "modified_date": "12/10/2020",
+        "vulnerability_source": "MITRE"
+    },
+    {
+        "cve_id": "CVE-2019-20220",
+        "cwe_id": "CWE-79",
+        "description": "In Support Incident Tracker (SiT!) 3.67, the search_id parameter in the search_incidents_advanced.php page is affected by XSS.",
+        "cvss3": {
+            "cvss3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "cvss3_url": "https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        },
+        "cvss2": {
+            "cvss2": "(AV:N/AC:M/Au:N/C:N/I:P/A:N)",
+            "cvss2_url": "https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?vector=(AV:N/AC:M/Au:N/C:N/I:P/A:N)"
+        },
+        "base_score_v3": "6.1 MEDIUM",
+        "base_score_v2": "4.3 MEDIUM",
+        "hyperlinks": [
+            "https://fatihhcelik.blogspot.com/2019/12/support-incident-tracker-xss-in.html"
+        ],
+        "cpe": [
+            "*cpe:2.3:a:sitracker:support_incident_tracker:3.67:*:*:*:*:*:*:*",
+            "*cpe:2.3:a:sitracker:support_incident_tracker:3.67:*:*:*:*:*:*:*"
+        ],
+        "published_date": "01/02/2020",
+        "modified_date": "01/03/2020",
+        "vulnerability_source": "MITRE"
+    },
+    {
+        "cve_id": "CVE-2019-20221",
+        "cwe_id": "CWE-79",
+        "description": "In Support Incident Tracker (SiT!) 3.67, Load Plugins input in the config.php page is affected by XSS. The XSS payload is, for example, executed on the about.php page.",
+        "cvss3": {
+            "cvss3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "cvss3_url": "https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        },
+        "cvss2": {
+            "cvss2": "(AV:N/AC:M/Au:N/C:N/I:P/A:N)",
+            "cvss2_url": "https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?vector=(AV:N/AC:M/Au:N/C:N/I:P/A:N)"
+        },
+        "base_score_v3": "6.1 MEDIUM",
+        "base_score_v2": "4.3 MEDIUM",
+        "hyperlinks": [
+            "https://fatihhcelik.blogspot.com/2019/12/support-incident-tracker-xss-in-plugin.html"
+        ],
+        "cpe": [
+            "*cpe:2.3:a:sitracker:support_incident_tracker:3.67:*:*:*:*:*:*:*",
+            "*cpe:2.3:a:sitracker:support_incident_tracker:3.67:*:*:*:*:*:*:*"
+        ],
+        "published_date": "01/02/2020",
+        "modified_date": "01/03/2020",
+        "vulnerability_source": "MITRE"
+    },
+    {
+        "cve_id": "CVE-2019-20222",
+        "cwe_id": "CWE-79",
+        "description": "In Support Incident Tracker (SiT!) 3.67, the Short Application Name and Application Name inputs in the config.php page are affected by XSS.",
+        "cvss3": {
+            "cvss3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "cvss3_url": "https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        },
+        "cvss2": {
+            "cvss2": "(AV:N/AC:M/Au:N/C:N/I:P/A:N)",
+            "cvss2_url": "https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?vector=(AV:N/AC:M/Au:N/C:N/I:P/A:N)"
+        },
+        "base_score_v3": "6.1 MEDIUM",
+        "base_score_v2": "4.3 MEDIUM",
+        "hyperlinks": [
+            "https://fatihhcelik.blogspot.com/2019/12/support-incident-tracker-xss-in-short.html"
+        ],
+        "cpe": [
+            "*cpe:2.3:a:sitracker:support_incident_tracker:3.67:*:*:*:*:*:*:*",
+            "*cpe:2.3:a:sitracker:support_incident_tracker:3.67:*:*:*:*:*:*:*"
+        ],
+        "published_date": "01/02/2020",
+        "modified_date": "01/03/2020",
+        "vulnerability_source": "MITRE"
+    },
+    {
+        "cve_id": "CVE-2019-20223",
+        "cwe_id": "CWE-79",
+        "description": "In Support Incident Tracker (SiT!) 3.67, the id parameter is affected by XSS on all endpoints that use this parameter, a related issue to CVE-2012-2235.",
+        "cvss3": {
+            "cvss3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+            "cvss3_url": "https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        },
+        "cvss2": {
+            "cvss2": "(AV:N/AC:M/Au:N/C:N/I:P/A:N)",
+            "cvss2_url": "https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?vector=(AV:N/AC:M/Au:N/C:N/I:P/A:N)"
+        },
+        "base_score_v3": "6.1 MEDIUM",
+        "base_score_v2": "4.3 MEDIUM",
+        "hyperlinks": [
+            "https://fatihhcelik.blogspot.com/2019/12/support-incident-tracker-xss-id.html"
+        ],
+        "cpe": [
+            "*cpe:2.3:a:sitracker:support_incident_tracker:3.67:*:*:*:*:*:*:*",
+            "*cpe:2.3:a:sitracker:support_incident_tracker:3.67:*:*:*:*:*:*:*"
+        ],
+        "published_date": "01/02/2020",
+        "modified_date": "01/03/2020",
+        "vulnerability_source": "MITRE"
+    }
+]

@@ -1,0 +1,502 @@
+[
+    {
+        "cve_code": "CVE-2012-0419",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0650",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0714",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0727",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0728",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0746",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0747",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0819",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0820",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0821",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0822",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0835",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0836",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0837",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0869",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0956",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0973",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-0974",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1103",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1107",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1108",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1110",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1112",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1116",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1117",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1151",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1152",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1183",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1184",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1188",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1293",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1467",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1468",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1469",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1578",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1579",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1580",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1581",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1582",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1584",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1588",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1590",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1591",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1605",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1606",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1607",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1608",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1611",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1612",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1613",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1614",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1617",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1625",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1626",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1627",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1628",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1629",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1630",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1631",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1632",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1633",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1638",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1640",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1646",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1648",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1649",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1651",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1652",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1653",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1654",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1655",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1656",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1657",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1658",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1659",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1660",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1666",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1833",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1892",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1899",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1901",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1911",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-1912",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2048",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2056",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2057",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2058",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2059",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2060",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2061",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2062",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2063",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2064",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2065",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2066",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2067",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2068",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2069",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2105",
+        "year": "2012",
+        "month": "9"
+    },
+    {
+        "cve_code": "CVE-2012-2109",
+        "year": "2012",
+        "month": "9"
+    }
+]
