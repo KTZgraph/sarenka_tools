@@ -41,9 +41,9 @@ class CWEIdsSaving:
         ending_time = time.perf_counter()
 
         result = {
-            "created_at": str(datetime.now())
+            "created_at": str(datetime.now()),
             "timestamp": self.cwe_db_timestamp,
-            "performance": ending_time - starting_time
+            "performance": ending_time - starting_time,
             "cwe_all": cwe_all
         }
 
