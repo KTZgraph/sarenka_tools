@@ -22,8 +22,7 @@ class CWEIdsSaving:
             result.append(
                 CWEWrapper(
                     cwe_id=cwe_id,
-                    # description=CWEMitreScraper(cwe_id).get_description()
-                    description="No description"
+                    description=CWEMitreScraper(cwe_id).get_description()
                 )
             )
 
