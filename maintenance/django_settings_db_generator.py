@@ -43,9 +43,11 @@ class DjangoSettingsDbGenerator:
             },
         """
 
-        PART_CONST = """ :{
+        PART_CONST_START = """ :{
                 'ENGINE': 'django.db.backends.sqlite3',
-                'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+                """
+
+        PART_CONST_END = """'),
             },
         """
 
@@ -53,18 +55,24 @@ class DjangoSettingsDbGenerator:
         # bo są takie podatnosci bez CWE;a nie chę używac domyślnej bazy
         all_cwes.append({"cwe_id": "CWE-NONE"})
 
+        print(len(all_cwes))
+
         for cwe in all_cwes:
             cwe_part = f"""
-            '{cwe["cwe_id"]}'"""
+            '{cwe["cwe_id"].replace("-", "_")}'"""
 
             result += cwe_part
-            result += PART_CONST
+            result += PART_CONST_START
+
+            db_part = f"""'NAME': os.path.join(BASE_DIR, '{cwe["cwe_id"].replace("-", "_").lower()}.sqlite3"""
+            result += db_part
+            result += PART_CONST_END
 
         result += "\n}"
 
         self.save_as_txt(result)
 
-        print(result)
+        # print(result)
         return result
 
 
