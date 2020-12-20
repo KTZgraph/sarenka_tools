@@ -17,7 +17,7 @@ def save_all_cwe():
     """
     1. Grabs data from official mitre file "https://cwe.mitre.org/data/published/cwe_latest.pdf".
     2. Scrap description by cwe ids from  "https://cwe.mitre.org/"
-    3. Saves data to json.file "cwe_all.json" 
+    3. Saves data to json.file "cwe_all.json"
     """
     pass
     # cwe_ids_saving = CWEIdsSaving()
@@ -65,6 +65,41 @@ def save_all_cve_ids_details():
     # return performance
 
 
+def cve_part_2():
+    starting_time = time.perf_counter()
+
+    with open("cve_all.json") as json_file:
+        data = json.load(json_file)
+
+    cve_all = data["cve_all"]
+
+    # ilosc partów na które dzielę dane do plików
+    PARTS = (len(cve_all) // 100) + 1
+
+    for part in range(232, PARTS):
+        result = []
+        start_idx = part*100
+        end_idx = (part+1) * 100
+
+        print("start_idx: ", start_idx, " end_idx:", end_idx)
+
+        for cve in cve_all[start_idx:end_idx]:
+            cve_data = NISTCVEScraper(
+                cve["cve_code"]).values  # dane ze scrapera
+            cve_data.update({"year": cve["year"]})
+            cve_data.update({"month": cve["month"]})
+            result.append(cve_data)
+
+        # zapisywanie danych w partycja po 100 ale ze wszystkimi szczegółami
+        with open(f'all_cve/cve_all_details_{start_idx}_{end_idx}.json', 'w') as fp:
+            json.dump(result, fp,  indent=4)
+
+    performance = ending_time = time.perf_counter()
+    print("PERFORMANCE: ",  performance)
+    # return performance
+
+
+# CWE ogólne
 def save_all_cwes_details():
     starting_time = time.perf_counter()
 
@@ -101,4 +136,5 @@ if __name__ == "__main__":
     # save_all_cwe()
     # save_all_cve_ids()
     # save_all_cve_ids_details() #zerwało połącznie na cve_all_details_23200_23300.json
-    save_all_cwes_details()
+    # save_all_cwes_details()
+    cve_part_2()

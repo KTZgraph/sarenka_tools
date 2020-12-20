@@ -1,0 +1,4318 @@
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
+
+    'CWE_1065' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1065.sqlite3'),
+    },
+
+    'CWE_155' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_155.sqlite3'),
+    },
+
+    'CWE_609' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_609.sqlite3'),
+    },
+
+    'CWE_188' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_188.sqlite3'),
+    },
+
+    'CWE_369' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_369.sqlite3'),
+    },
+
+    'CWE_1298' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1298.sqlite3'),
+    },
+
+    'CWE_74' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_74.sqlite3'),
+    },
+
+    'CWE_834' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_834.sqlite3'),
+    },
+
+    'CWE_170' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_170.sqlite3'),
+    },
+
+    'CWE_1292' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1292.sqlite3'),
+    },
+
+    'CWE_923' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_923.sqlite3'),
+    },
+
+    'CWE_925' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_925.sqlite3'),
+    },
+
+    'CWE_792' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_792.sqlite3'),
+    },
+
+    'CWE_185' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_185.sqlite3'),
+    },
+
+    'CWE_350' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_350.sqlite3'),
+    },
+
+    'CWE_152' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_152.sqlite3'),
+    },
+
+    'CWE_409' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_409.sqlite3'),
+    },
+
+    'CWE_439' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_439.sqlite3'),
+    },
+
+    'CWE_1086' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1086.sqlite3'),
+    },
+
+    'CWE_531' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_531.sqlite3'),
+    },
+
+    'CWE_646' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_646.sqlite3'),
+    },
+
+    'CWE_1046' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1046.sqlite3'),
+    },
+
+    'CWE_163' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_163.sqlite3'),
+    },
+
+    'CWE_617' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_617.sqlite3'),
+    },
+
+    'CWE_412' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_412.sqlite3'),
+    },
+
+    'CWE_1273' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1273.sqlite3'),
+    },
+
+    'CWE_835' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_835.sqlite3'),
+    },
+
+    'CWE_324' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_324.sqlite3'),
+    },
+
+    'CWE_914' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_914.sqlite3'),
+    },
+
+    'CWE_181' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_181.sqlite3'),
+    },
+
+    'CWE_183' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_183.sqlite3'),
+    },
+
+    'CWE_270' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_270.sqlite3'),
+    },
+
+    'CWE_425' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_425.sqlite3'),
+    },
+
+    'CWE_824' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_824.sqlite3'),
+    },
+
+    'CWE_1320' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1320.sqlite3'),
+    },
+
+    'CWE_942' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_942.sqlite3'),
+    },
+
+    'CWE_454' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_454.sqlite3'),
+    },
+
+    'CWE_142' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_142.sqlite3'),
+    },
+
+    'CWE_200' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_200.sqlite3'),
+    },
+
+    'CWE_1243' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1243.sqlite3'),
+    },
+
+    'CWE_1329' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1329.sqlite3'),
+    },
+
+    'CWE_446' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_446.sqlite3'),
+    },
+
+    'CWE_755' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_755.sqlite3'),
+    },
+
+    'CWE_1177' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1177.sqlite3'),
+    },
+
+    'CWE_363' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_363.sqlite3'),
+    },
+
+    'CWE_206' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_206.sqlite3'),
+    },
+
+    'CWE_146' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_146.sqlite3'),
+    },
+
+    'CWE_78' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_78.sqlite3'),
+    },
+
+    'CWE_652' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_652.sqlite3'),
+    },
+
+    'CWE_79' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_79.sqlite3'),
+    },
+
+    'CWE_460' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_460.sqlite3'),
+    },
+
+    'CWE_377' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_377.sqlite3'),
+    },
+
+    'CWE_588' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_588.sqlite3'),
+    },
+
+    'CWE_619' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_619.sqlite3'),
+    },
+
+    'CWE_535' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_535.sqlite3'),
+    },
+
+    'CWE_696' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_696.sqlite3'),
+    },
+
+    'CWE_530' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_530.sqlite3'),
+    },
+
+    'CWE_394' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_394.sqlite3'),
+    },
+
+    'CWE_469' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_469.sqlite3'),
+    },
+
+    'CWE_775' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_775.sqlite3'),
+    },
+
+    'CWE_833' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_833.sqlite3'),
+    },
+
+    'CWE_1331' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1331.sqlite3'),
+    },
+
+    'CWE_481' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_481.sqlite3'),
+    },
+
+    'CWE_672' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_672.sqlite3'),
+    },
+
+    'CWE_1062' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1062.sqlite3'),
+    },
+
+    'CWE_758' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_758.sqlite3'),
+    },
+
+    'CWE_316' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_316.sqlite3'),
+    },
+
+    'CWE_1317' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1317.sqlite3'),
+    },
+
+    'CWE_553' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_553.sqlite3'),
+    },
+
+    'CWE_128' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_128.sqlite3'),
+    },
+
+    'CWE_541' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_541.sqlite3'),
+    },
+
+    'CWE_1042' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1042.sqlite3'),
+    },
+
+    'CWE_493' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_493.sqlite3'),
+    },
+
+    'CWE_343' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_343.sqlite3'),
+    },
+
+    'CWE_776' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_776.sqlite3'),
+    },
+
+    'CWE_1123' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1123.sqlite3'),
+    },
+
+    'CWE_154' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_154.sqlite3'),
+    },
+
+    'CWE_1055' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1055.sqlite3'),
+    },
+
+    'CWE_312' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_312.sqlite3'),
+    },
+
+    'CWE_76' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_76.sqlite3'),
+    },
+
+    'CWE_579' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_579.sqlite3'),
+    },
+
+    'CWE_242' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_242.sqlite3'),
+    },
+
+    'CWE_94' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_94.sqlite3'),
+    },
+
+    'CWE_1272' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1272.sqlite3'),
+    },
+
+    'CWE_841' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_841.sqlite3'),
+    },
+
+    'CWE_1190' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1190.sqlite3'),
+    },
+
+    'CWE_1326' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1326.sqlite3'),
+    },
+
+    'CWE_213' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_213.sqlite3'),
+    },
+
+    'CWE_1174' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1174.sqlite3'),
+    },
+
+    'CWE_234' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_234.sqlite3'),
+    },
+
+    'CWE_605' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_605.sqlite3'),
+    },
+
+    'CWE_577' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_577.sqlite3'),
+    },
+
+    'CWE_837' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_837.sqlite3'),
+    },
+
+    'CWE_663' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_663.sqlite3'),
+    },
+
+    'CWE_448' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_448.sqlite3'),
+    },
+
+    'CWE_1249' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1249.sqlite3'),
+    },
+
+    'CWE_550' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_550.sqlite3'),
+    },
+
+    'CWE_690' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_690.sqlite3'),
+    },
+
+    'CWE_1281' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1281.sqlite3'),
+    },
+
+    'CWE_512' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_512.sqlite3'),
+    },
+
+    'CWE_1106' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1106.sqlite3'),
+    },
+
+    'CWE_1117' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1117.sqlite3'),
+    },
+
+    'CWE_698' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_698.sqlite3'),
+    },
+
+    'CWE_1300' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1300.sqlite3'),
+    },
+
+    'CWE_262' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_262.sqlite3'),
+    },
+
+    'CWE_538' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_538.sqlite3'),
+    },
+
+    'CWE_689' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_689.sqlite3'),
+    },
+
+    'CWE_1101' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1101.sqlite3'),
+    },
+
+    'CWE_358' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_358.sqlite3'),
+    },
+
+    'CWE_88' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_88.sqlite3'),
+    },
+
+    'CWE_594' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_594.sqlite3'),
+    },
+
+    'CWE_1120' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1120.sqlite3'),
+    },
+
+    'CWE_1303' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1303.sqlite3'),
+    },
+
+    'CWE_839' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_839.sqlite3'),
+    },
+
+    'CWE_1084' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1084.sqlite3'),
+    },
+
+    'CWE_1121' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1121.sqlite3'),
+    },
+
+    'CWE_582' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_582.sqlite3'),
+    },
+
+    'CWE_344' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_344.sqlite3'),
+    },
+
+    'CWE_648' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_648.sqlite3'),
+    },
+
+    'CWE_595' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_595.sqlite3'),
+    },
+
+    'CWE_1287' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1287.sqlite3'),
+    },
+
+    'CWE_347' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_347.sqlite3'),
+    },
+
+    'CWE_103' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_103.sqlite3'),
+    },
+
+    'CWE_795' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_795.sqlite3'),
+    },
+
+    'CWE_1041' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1041.sqlite3'),
+    },
+
+    'CWE_1079' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1079.sqlite3'),
+    },
+
+    'CWE_1091' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1091.sqlite3'),
+    },
+
+    'CWE_405' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_405.sqlite3'),
+    },
+
+    'CWE_1280' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1280.sqlite3'),
+    },
+
+    'CWE_336' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_336.sqlite3'),
+    },
+
+    'CWE_357' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_357.sqlite3'),
+    },
+
+    'CWE_160' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_160.sqlite3'),
+    },
+
+    'CWE_178' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_178.sqlite3'),
+    },
+
+    'CWE_838' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_838.sqlite3'),
+    },
+
+    'CWE_267' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_267.sqlite3'),
+    },
+
+    'CWE_73' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_73.sqlite3'),
+    },
+
+    'CWE_228' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_228.sqlite3'),
+    },
+
+    'CWE_682' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_682.sqlite3'),
+    },
+
+    'CWE_639' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_639.sqlite3'),
+    },
+
+    'CWE_204' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_204.sqlite3'),
+    },
+
+    'CWE_1271' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1271.sqlite3'),
+    },
+
+    'CWE_174' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_174.sqlite3'),
+    },
+
+    'CWE_331' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_331.sqlite3'),
+    },
+
+    'CWE_1075' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1075.sqlite3'),
+    },
+
+    'CWE_102' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_102.sqlite3'),
+    },
+
+    'CWE_1077' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1077.sqlite3'),
+    },
+
+    'CWE_495' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_495.sqlite3'),
+    },
+
+    'CWE_248' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_248.sqlite3'),
+    },
+
+    'CWE_484' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_484.sqlite3'),
+    },
+
+    'CWE_273' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_273.sqlite3'),
+    },
+
+    'CWE_140' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_140.sqlite3'),
+    },
+
+    'CWE_364' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_364.sqlite3'),
+    },
+
+    'CWE_1262' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1262.sqlite3'),
+    },
+
+    'CWE_447' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_447.sqlite3'),
+    },
+
+    'CWE_261' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_261.sqlite3'),
+    },
+
+    'CWE_195' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_195.sqlite3'),
+    },
+
+    'CWE_313' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_313.sqlite3'),
+    },
+
+    'CWE_554' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_554.sqlite3'),
+    },
+
+    'CWE_283' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_283.sqlite3'),
+    },
+
+    'CWE_482' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_482.sqlite3'),
+    },
+
+    'CWE_338' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_338.sqlite3'),
+    },
+
+    'CWE_457' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_457.sqlite3'),
+    },
+
+    'CWE_89' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_89.sqlite3'),
+    },
+
+    'CWE_116' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_116.sqlite3'),
+    },
+
+    'CWE_549' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_549.sqlite3'),
+    },
+
+    'CWE_590' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_590.sqlite3'),
+    },
+
+    'CWE_1267' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1267.sqlite3'),
+    },
+
+    'CWE_395' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_395.sqlite3'),
+    },
+
+    'CWE_520' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_520.sqlite3'),
+    },
+
+    'CWE_223' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_223.sqlite3'),
+    },
+
+    'CWE_1246' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1246.sqlite3'),
+    },
+
+    'CWE_599' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_599.sqlite3'),
+    },
+
+    'CWE_628' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_628.sqlite3'),
+    },
+
+    'CWE_345' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_345.sqlite3'),
+    },
+
+    'CWE_413' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_413.sqlite3'),
+    },
+
+    'CWE_548' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_548.sqlite3'),
+    },
+
+    'CWE_403' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_403.sqlite3'),
+    },
+
+    'CWE_340' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_340.sqlite3'),
+    },
+
+    'CWE_421' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_421.sqlite3'),
+    },
+
+    'CWE_680' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_680.sqlite3'),
+    },
+
+    'CWE_305' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_305.sqlite3'),
+    },
+
+    'CWE_362' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_362.sqlite3'),
+    },
+
+    'CWE_782' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_782.sqlite3'),
+    },
+
+    'CWE_1255' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1255.sqlite3'),
+    },
+
+    'CWE_514' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_514.sqlite3'),
+    },
+
+    'CWE_1313' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1313.sqlite3'),
+    },
+
+    'CWE_692' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_692.sqlite3'),
+    },
+
+    'CWE_536' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_536.sqlite3'),
+    },
+
+    'CWE_332' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_332.sqlite3'),
+    },
+
+    'CWE_591' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_591.sqlite3'),
+    },
+
+    'CWE_1258' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1258.sqlite3'),
+    },
+
+    'CWE_1264' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1264.sqlite3'),
+    },
+
+    'CWE_916' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_916.sqlite3'),
+    },
+
+    'CWE_1099' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1099.sqlite3'),
+    },
+
+    'CWE_603' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_603.sqlite3'),
+    },
+
+    'CWE_153' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_153.sqlite3'),
+    },
+
+    'CWE_669' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_669.sqlite3'),
+    },
+
+    'CWE_208' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_208.sqlite3'),
+    },
+
+    'CWE_406' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_406.sqlite3'),
+    },
+
+    'CWE_1004' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1004.sqlite3'),
+    },
+
+    'CWE_1024' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1024.sqlite3'),
+    },
+
+    'CWE_1039' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1039.sqlite3'),
+    },
+
+    'CWE_302' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_302.sqlite3'),
+    },
+
+    'CWE_790' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_790.sqlite3'),
+    },
+
+    'CWE_657' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_657.sqlite3'),
+    },
+
+    'CWE_915' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_915.sqlite3'),
+    },
+
+    'CWE_300' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_300.sqlite3'),
+    },
+
+    'CWE_289' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_289.sqlite3'),
+    },
+
+    'CWE_263' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_263.sqlite3'),
+    },
+
+    'CWE_687' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_687.sqlite3'),
+    },
+
+    'CWE_1107' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1107.sqlite3'),
+    },
+
+    'CWE_1240' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1240.sqlite3'),
+    },
+
+    'CWE_131' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_131.sqlite3'),
+    },
+
+    'CWE_325' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_325.sqlite3'),
+    },
+
+    'CWE_1056' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1056.sqlite3'),
+    },
+
+    'CWE_348' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_348.sqlite3'),
+    },
+
+    'CWE_1332' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1332.sqlite3'),
+    },
+
+    'CWE_222' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_222.sqlite3'),
+    },
+
+    'CWE_827' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_827.sqlite3'),
+    },
+
+    'CWE_453' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_453.sqlite3'),
+    },
+
+    'CWE_1068' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1068.sqlite3'),
+    },
+
+    'CWE_1289' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1289.sqlite3'),
+    },
+
+    'CWE_1060' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1060.sqlite3'),
+    },
+
+    'CWE_1097' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1097.sqlite3'),
+    },
+
+    'CWE_321' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_321.sqlite3'),
+    },
+
+    'CWE_662' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_662.sqlite3'),
+    },
+
+    'CWE_627' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_627.sqlite3'),
+    },
+
+    'CWE_1327' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1327.sqlite3'),
+    },
+
+    'CWE_1066' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1066.sqlite3'),
+    },
+
+    'CWE_307' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_307.sqlite3'),
+    },
+
+    'CWE_515' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_515.sqlite3'),
+    },
+
+    'CWE_912' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_912.sqlite3'),
+    },
+
+    'CWE_80' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_80.sqlite3'),
+    },
+
+    'CWE_108' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_108.sqlite3'),
+    },
+
+    'CWE_1312' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1312.sqlite3'),
+    },
+
+    'CWE_258' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_258.sqlite3'),
+    },
+
+    'CWE_921' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_921.sqlite3'),
+    },
+
+    'CWE_184' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_184.sqlite3'),
+    },
+
+    'CWE_257' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_257.sqlite3'),
+    },
+
+    'CWE_623' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_623.sqlite3'),
+    },
+
+    'CWE_788' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_788.sqlite3'),
+    },
+
+    'CWE_762' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_762.sqlite3'),
+    },
+
+    'CWE_1072' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1072.sqlite3'),
+    },
+
+    'CWE_1087' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1087.sqlite3'),
+    },
+
+    'CWE_296' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_296.sqlite3'),
+    },
+
+    'CWE_654' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_654.sqlite3'),
+    },
+
+    'CWE_368' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_368.sqlite3'),
+    },
+
+    'CWE_1104' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1104.sqlite3'),
+    },
+
+    'CWE_556' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_556.sqlite3'),
+    },
+
+    'CWE_510' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_510.sqlite3'),
+    },
+
+    'CWE_653' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_653.sqlite3'),
+    },
+
+    'CWE_917' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_917.sqlite3'),
+    },
+
+    'CWE_1322' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1322.sqlite3'),
+    },
+
+    'CWE_1263' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1263.sqlite3'),
+    },
+
+    'CWE_1244' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1244.sqlite3'),
+    },
+
+    'CWE_765' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_765.sqlite3'),
+    },
+
+    'CWE_327' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_327.sqlite3'),
+    },
+
+    'CWE_144' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_144.sqlite3'),
+    },
+
+    'CWE_1098' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1098.sqlite3'),
+    },
+
+    'CWE_1285' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1285.sqlite3'),
+    },
+
+    'CWE_502' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_502.sqlite3'),
+    },
+
+    'CWE_114' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_114.sqlite3'),
+    },
+
+    'CWE_807' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_807.sqlite3'),
+    },
+
+    'CWE_555' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_555.sqlite3'),
+    },
+
+    'CWE_1105' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1105.sqlite3'),
+    },
+
+    'CWE_1232' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1232.sqlite3'),
+    },
+
+    'CWE_237' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_237.sqlite3'),
+    },
+
+    'CWE_644' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_644.sqlite3'),
+    },
+
+    'CWE_304' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_304.sqlite3'),
+    },
+
+    'CWE_244' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_244.sqlite3'),
+    },
+
+    'CWE_1247' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1247.sqlite3'),
+    },
+
+    'CWE_416' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_416.sqlite3'),
+    },
+
+    'CWE_686' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_686.sqlite3'),
+    },
+
+    'CWE_165' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_165.sqlite3'),
+    },
+
+    'CWE_1021' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1021.sqlite3'),
+    },
+
+    'CWE_424' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_424.sqlite3'),
+    },
+
+    'CWE_1049' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1049.sqlite3'),
+    },
+
+    'CWE_1266' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1266.sqlite3'),
+    },
+
+    'CWE_317' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_317.sqlite3'),
+    },
+
+    'CWE_1277' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1277.sqlite3'),
+    },
+
+    'CWE_1248' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1248.sqlite3'),
+    },
+
+    'CWE_606' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_606.sqlite3'),
+    },
+
+    'CWE_297' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_297.sqlite3'),
+    },
+
+    'CWE_1316' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1316.sqlite3'),
+    },
+
+    'CWE_271' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_271.sqlite3'),
+    },
+
+    'CWE_476' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_476.sqlite3'),
+    },
+
+    'CWE_578' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_578.sqlite3'),
+    },
+
+    'CWE_98' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_98.sqlite3'),
+    },
+
+    'CWE_655' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_655.sqlite3'),
+    },
+
+    'CWE_1118' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1118.sqlite3'),
+    },
+
+    'CWE_826' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_826.sqlite3'),
+    },
+
+    'CWE_544' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_544.sqlite3'),
+    },
+
+    'CWE_85' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_85.sqlite3'),
+    },
+
+    'CWE_1092' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1092.sqlite3'),
+    },
+
+    'CWE_219' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_219.sqlite3'),
+    },
+
+    'CWE_1302' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1302.sqlite3'),
+    },
+
+    'CWE_828' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_828.sqlite3'),
+    },
+
+    'CWE_280' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_280.sqlite3'),
+    },
+
+    'CWE_1122' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1122.sqlite3'),
+    },
+
+    'CWE_683' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_683.sqlite3'),
+    },
+
+    'CWE_224' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_224.sqlite3'),
+    },
+
+    'CWE_732' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_732.sqlite3'),
+    },
+
+    'CWE_323' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_323.sqlite3'),
+    },
+
+    'CWE_911' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_911.sqlite3'),
+    },
+
+    'CWE_764' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_764.sqlite3'),
+    },
+
+    'CWE_1230' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1230.sqlite3'),
+    },
+
+    'CWE_1282' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1282.sqlite3'),
+    },
+
+    'CWE_1124' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1124.sqlite3'),
+    },
+
+    'CWE_684' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_684.sqlite3'),
+    },
+
+    'CWE_393' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_393.sqlite3'),
+    },
+
+    'CWE_821' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_821.sqlite3'),
+    },
+
+    'CWE_1054' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1054.sqlite3'),
+    },
+
+    'CWE_125' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_125.sqlite3'),
+    },
+
+    'CWE_584' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_584.sqlite3'),
+    },
+
+    'CWE_1291' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1291.sqlite3'),
+    },
+
+    'CWE_1222' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1222.sqlite3'),
+    },
+
+    'CWE_589' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_589.sqlite3'),
+    },
+
+    'CWE_472' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_472.sqlite3'),
+    },
+
+    'CWE_650' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_650.sqlite3'),
+    },
+
+    'CWE_378' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_378.sqlite3'),
+    },
+
+    'CWE_1083' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1083.sqlite3'),
+    },
+
+    'CWE_124' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_124.sqlite3'),
+    },
+
+    'CWE_1253' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1253.sqlite3'),
+    },
+
+    'CWE_260' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_260.sqlite3'),
+    },
+
+    'CWE_456' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_456.sqlite3'),
+    },
+
+    'CWE_230' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_230.sqlite3'),
+    },
+
+    'CWE_601' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_601.sqlite3'),
+    },
+
+    'CWE_449' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_449.sqlite3'),
+    },
+
+    'CWE_1276' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1276.sqlite3'),
+    },
+
+    'CWE_475' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_475.sqlite3'),
+    },
+
+    'CWE_1279' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1279.sqlite3'),
+    },
+
+    'CWE_286' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_286.sqlite3'),
+    },
+
+    'CWE_1229' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1229.sqlite3'),
+    },
+
+    'CWE_282' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_282.sqlite3'),
+    },
+
+    'CWE_284' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_284.sqlite3'),
+    },
+
+    'CWE_72' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_72.sqlite3'),
+    },
+
+    'CWE_354' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_354.sqlite3'),
+    },
+
+    'CWE_705' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_705.sqlite3'),
+    },
+
+    'CWE_1067' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1067.sqlite3'),
+    },
+
+    'CWE_1220' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1220.sqlite3'),
+    },
+
+    'CWE_749' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_749.sqlite3'),
+    },
+
+    'CWE_451' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_451.sqlite3'),
+    },
+
+    'CWE_759' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_759.sqlite3'),
+    },
+
+    'CWE_710' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_710.sqlite3'),
+    },
+
+    'CWE_568' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_568.sqlite3'),
+    },
+
+    'CWE_583' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_583.sqlite3'),
+    },
+
+    'CWE_1260' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1260.sqlite3'),
+    },
+
+    'CWE_1250' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1250.sqlite3'),
+    },
+
+    'CWE_1288' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1288.sqlite3'),
+    },
+
+    'CWE_1325' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1325.sqlite3'),
+    },
+
+    'CWE_1236' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1236.sqlite3'),
+    },
+
+    'CWE_1164' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1164.sqlite3'),
+    },
+
+    'CWE_440' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_440.sqlite3'),
+    },
+
+    'CWE_276' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_276.sqlite3'),
+    },
+
+    'CWE_384' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_384.sqlite3'),
+    },
+
+    'CWE_1076' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1076.sqlite3'),
+    },
+
+    'CWE_1259' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1259.sqlite3'),
+    },
+
+    'CWE_488' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_488.sqlite3'),
+    },
+
+    'CWE_1108' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1108.sqlite3'),
+    },
+
+    'CWE_463' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_463.sqlite3'),
+    },
+
+    'CWE_290' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_290.sqlite3'),
+    },
+
+    'CWE_1093' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1093.sqlite3'),
+    },
+
+    'CWE_793' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_793.sqlite3'),
+    },
+
+    'CWE_134' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_134.sqlite3'),
+    },
+
+    'CWE_1319' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1319.sqlite3'),
+    },
+
+    'CWE_777' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_777.sqlite3'),
+    },
+
+    'CWE_84' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_84.sqlite3'),
+    },
+
+    'CWE_471' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_471.sqlite3'),
+    },
+
+    'CWE_479' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_479.sqlite3'),
+    },
+
+    'CWE_1301' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1301.sqlite3'),
+    },
+
+    'CWE_147' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_147.sqlite3'),
+    },
+
+    'CWE_704' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_704.sqlite3'),
+    },
+
+    'CWE_829' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_829.sqlite3'),
+    },
+
+    'CWE_773' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_773.sqlite3'),
+    },
+
+    'CWE_489' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_489.sqlite3'),
+    },
+
+    'CWE_444' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_444.sqlite3'),
+    },
+
+    'CWE_1044' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1044.sqlite3'),
+    },
+
+    'CWE_1188' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1188.sqlite3'),
+    },
+
+    'CWE_427' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_427.sqlite3'),
+    },
+
+    'CWE_359' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_359.sqlite3'),
+    },
+
+    'CWE_754' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_754.sqlite3'),
+    },
+
+    'CWE_615' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_615.sqlite3'),
+    },
+
+    'CWE_120' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_120.sqlite3'),
+    },
+
+    'CWE_1192' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1192.sqlite3'),
+    },
+
+    'CWE_306' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_306.sqlite3'),
+    },
+
+    'CWE_314' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_314.sqlite3'),
+    },
+
+    'CWE_117' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_117.sqlite3'),
+    },
+
+    'CWE_783' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_783.sqlite3'),
+    },
+
+    'CWE_576' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_576.sqlite3'),
+    },
+
+    'CWE_245' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_245.sqlite3'),
+    },
+
+    'CWE_432' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_432.sqlite3'),
+    },
+
+    'CWE_410' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_410.sqlite3'),
+    },
+
+    'CWE_197' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_197.sqlite3'),
+    },
+
+    'CWE_106' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_106.sqlite3'),
+    },
+
+    'CWE_926' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_926.sqlite3'),
+    },
+
+    'CWE_1261' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1261.sqlite3'),
+    },
+
+    'CWE_1310' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1310.sqlite3'),
+    },
+
+    'CWE_651' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_651.sqlite3'),
+    },
+
+    'CWE_1314' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1314.sqlite3'),
+    },
+
+    'CWE_190' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_190.sqlite3'),
+    },
+
+    'CWE_757' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_757.sqlite3'),
+    },
+
+    'CWE_198' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_198.sqlite3'),
+    },
+
+    'CWE_339' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_339.sqlite3'),
+    },
+
+    'CWE_441' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_441.sqlite3'),
+    },
+
+    'CWE_1275' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1275.sqlite3'),
+    },
+
+    'CWE_397' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_397.sqlite3'),
+    },
+
+    'CWE_909' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_909.sqlite3'),
+    },
+
+    'CWE_1284' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1284.sqlite3'),
+    },
+
+    'CWE_329' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_329.sqlite3'),
+    },
+
+    'CWE_638' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_638.sqlite3'),
+    },
+
+    'CWE_798' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_798.sqlite3'),
+    },
+
+    'CWE_419' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_419.sqlite3'),
+    },
+
+    'CWE_315' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_315.sqlite3'),
+    },
+
+    'CWE_480' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_480.sqlite3'),
+    },
+
+    'CWE_497' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_497.sqlite3'),
+    },
+
+    'CWE_910' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_910.sqlite3'),
+    },
+
+    'CWE_787' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_787.sqlite3'),
+    },
+
+    'CWE_483' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_483.sqlite3'),
+    },
+
+    'CWE_375' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_375.sqlite3'),
+    },
+
+    'CWE_1323' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1323.sqlite3'),
+    },
+
+    'CWE_1095' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1095.sqlite3'),
+    },
+
+    'CWE_272' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_272.sqlite3'),
+    },
+
+    'CWE_333' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_333.sqlite3'),
+    },
+
+    'CWE_571' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_571.sqlite3'),
+    },
+
+    'CWE_581' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_581.sqlite3'),
+    },
+
+    'CWE_180' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_180.sqlite3'),
+    },
+
+    'CWE_693' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_693.sqlite3'),
+    },
+
+    'CWE_1114' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1114.sqlite3'),
+    },
+
+    'CWE_1126' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1126.sqlite3'),
+    },
+
+    'CWE_649' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_649.sqlite3'),
+    },
+
+    'CWE_685' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_685.sqlite3'),
+    },
+
+    'CWE_1242' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1242.sqlite3'),
+    },
+
+    'CWE_474' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_474.sqlite3'),
+    },
+
+    'CWE_86' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_86.sqlite3'),
+    },
+
+    'CWE_285' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_285.sqlite3'),
+    },
+
+    'CWE_385' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_385.sqlite3'),
+    },
+
+    'CWE_706' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_706.sqlite3'),
+    },
+
+    'CWE_342' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_342.sqlite3'),
+    },
+
+    'CWE_391' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_391.sqlite3'),
+    },
+
+    'CWE_462' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_462.sqlite3'),
+    },
+
+    'CWE_90' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_90.sqlite3'),
+    },
+
+    'CWE_1115' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1115.sqlite3'),
+    },
+
+    'CWE_99' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_99.sqlite3'),
+    },
+
+    'CWE_1116' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1116.sqlite3'),
+    },
+
+    'CWE_366' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_366.sqlite3'),
+    },
+
+    'CWE_1069' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1069.sqlite3'),
+    },
+
+    'CWE_598' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_598.sqlite3'),
+    },
+
+    'CWE_1193' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1193.sqlite3'),
+    },
+
+    'CWE_211' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_211.sqlite3'),
+    },
+
+    'CWE_1103' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1103.sqlite3'),
+    },
+
+    'CWE_349' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_349.sqlite3'),
+    },
+
+    'CWE_164' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_164.sqlite3'),
+    },
+
+    'CWE_172' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_172.sqlite3'),
+    },
+
+    'CWE_156' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_156.sqlite3'),
+    },
+
+    'CWE_129' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_129.sqlite3'),
+    },
+
+    'CWE_1100' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1100.sqlite3'),
+    },
+
+    'CWE_1334' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1334.sqlite3'),
+    },
+
+    'CWE_269' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_269.sqlite3'),
+    },
+
+    'CWE_733' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_733.sqlite3'),
+    },
+
+    'CWE_804' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_804.sqlite3'),
+    },
+
+    'CWE_319' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_319.sqlite3'),
+    },
+
+    'CWE_119' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_119.sqlite3'),
+    },
+
+    'CWE_501' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_501.sqlite3'),
+    },
+
+    'CWE_1061' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1061.sqlite3'),
+    },
+
+    'CWE_238' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_238.sqlite3'),
+    },
+
+    'CWE_1296' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1296.sqlite3'),
+    },
+
+    'CWE_647' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_647.sqlite3'),
+    },
+
+    'CWE_675' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_675.sqlite3'),
+    },
+
+    'CWE_281' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_281.sqlite3'),
+    },
+
+    'CWE_194' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_194.sqlite3'),
+    },
+
+    'CWE_563' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_563.sqlite3'),
+    },
+
+    'CWE_927' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_927.sqlite3'),
+    },
+
+    'CWE_774' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_774.sqlite3'),
+    },
+
+    'CWE_913' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_913.sqlite3'),
+    },
+
+    'CWE_508' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_508.sqlite3'),
+    },
+
+    'CWE_771' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_771.sqlite3'),
+    },
+
+    'CWE_1090' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1090.sqlite3'),
+    },
+
+    'CWE_529' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_529.sqlite3'),
+    },
+
+    'CWE_799' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_799.sqlite3'),
+    },
+
+    'CWE_830' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_830.sqlite3'),
+    },
+
+    'CWE_422' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_422.sqlite3'),
+    },
+
+    'CWE_1096' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1096.sqlite3'),
+    },
+
+    'CWE_572' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_572.sqlite3'),
+    },
+
+    'CWE_115' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_115.sqlite3'),
+    },
+
+    'CWE_335' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_335.sqlite3'),
+    },
+
+    'CWE_121' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_121.sqlite3'),
+    },
+
+    'CWE_1109' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1109.sqlite3'),
+    },
+
+    'CWE_326' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_326.sqlite3'),
+    },
+
+    'CWE_570' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_570.sqlite3'),
+    },
+
+    'CWE_766' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_766.sqlite3'),
+    },
+
+    'CWE_836' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_836.sqlite3'),
+    },
+
+    'CWE_246' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_246.sqlite3'),
+    },
+
+    'CWE_1265' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1265.sqlite3'),
+    },
+
+    'CWE_511' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_511.sqlite3'),
+    },
+
+    'CWE_537' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_537.sqlite3'),
+    },
+
+    'CWE_621' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_621.sqlite3'),
+    },
+
+    'CWE_118' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_118.sqlite3'),
+    },
+
+    'CWE_585' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_585.sqlite3'),
+    },
+
+    'CWE_1290' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1290.sqlite3'),
+    },
+
+    'CWE_1094' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1094.sqlite3'),
+    },
+
+    'CWE_150' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_150.sqlite3'),
+    },
+
+    'CWE_434' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_434.sqlite3'),
+    },
+
+    'CWE_843' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_843.sqlite3'),
+    },
+
+    'CWE_1338' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1338.sqlite3'),
+    },
+
+    'CWE_97' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_97.sqlite3'),
+    },
+
+    'CWE_379' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_379.sqlite3'),
+    },
+
+    'CWE_1311' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1311.sqlite3'),
+    },
+
+    'CWE_618' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_618.sqlite3'),
+    },
+
+    'CWE_1071' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1071.sqlite3'),
+    },
+
+    'CWE_1270' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1270.sqlite3'),
+    },
+
+    'CWE_176' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_176.sqlite3'),
+    },
+
+    'CWE_212' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_212.sqlite3'),
+    },
+
+    'CWE_1233' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1233.sqlite3'),
+    },
+
+    'CWE_820' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_820.sqlite3'),
+    },
+
+    'CWE_370' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_370.sqlite3'),
+    },
+
+    'CWE_1080' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1080.sqlite3'),
+    },
+
+    'CWE_105' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_105.sqlite3'),
+    },
+
+    'CWE_93' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_93.sqlite3'),
+    },
+
+    'CWE_157' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_157.sqlite3'),
+    },
+
+    'CWE_309' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_309.sqlite3'),
+    },
+
+    'CWE_496' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_496.sqlite3'),
+    },
+
+    'CWE_688' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_688.sqlite3'),
+    },
+
+    'CWE_1085' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1085.sqlite3'),
+    },
+
+    'CWE_922' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_922.sqlite3'),
+    },
+
+    'CWE_268' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_268.sqlite3'),
+    },
+
+    'CWE_1048' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1048.sqlite3'),
+    },
+
+    'CWE_564' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_564.sqlite3'),
+    },
+
+    'CWE_173' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_173.sqlite3'),
+    },
+
+    'CWE_435' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_435.sqlite3'),
+    },
+
+    'CWE_196' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_196.sqlite3'),
+    },
+
+    'CWE_135' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_135.sqlite3'),
+    },
+
+    'CWE_593' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_593.sqlite3'),
+    },
+
+    'CWE_525' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_525.sqlite3'),
+    },
+
+    'CWE_1059' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1059.sqlite3'),
+    },
+
+    'CWE_540' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_540.sqlite3'),
+    },
+
+    'CWE_243' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_243.sqlite3'),
+    },
+
+    'CWE_141' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_141.sqlite3'),
+    },
+
+    'CWE_608' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_608.sqlite3'),
+    },
+
+    'CWE_642' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_642.sqlite3'),
+    },
+
+    'CWE_509' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_509.sqlite3'),
+    },
+
+    'CWE_1007' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1007.sqlite3'),
+    },
+
+    'CWE_1102' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1102.sqlite3'),
+    },
+
+    'CWE_161' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_161.sqlite3'),
+    },
+
+    'CWE_1050' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1050.sqlite3'),
+    },
+
+    'CWE_1045' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1045.sqlite3'),
+    },
+
+    'CWE_407' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_407.sqlite3'),
+    },
+
+    'CWE_842' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_842.sqlite3'),
+    },
+
+    'CWE_1064' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1064.sqlite3'),
+    },
+
+    'CWE_203' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_203.sqlite3'),
+    },
+
+    'CWE_1304' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1304.sqlite3'),
+    },
+
+    'CWE_431' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_431.sqlite3'),
+    },
+
+    'CWE_179' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_179.sqlite3'),
+    },
+
+    'CWE_182' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_182.sqlite3'),
+    },
+
+    'CWE_138' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_138.sqlite3'),
+    },
+
+    'CWE_1328' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1328.sqlite3'),
+    },
+
+    'CWE_1330' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1330.sqlite3'),
+    },
+
+    'CWE_695' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_695.sqlite3'),
+    },
+
+    'CWE_279' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_279.sqlite3'),
+    },
+
+    'CWE_622' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_622.sqlite3'),
+    },
+
+    'CWE_670' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_670.sqlite3'),
+    },
+
+    'CWE_1245' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1245.sqlite3'),
+    },
+
+    'CWE_158' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_158.sqlite3'),
+    },
+
+    'CWE_414' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_414.sqlite3'),
+    },
+
+    'CWE_210' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_210.sqlite3'),
+    },
+
+    'CWE_797' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_797.sqlite3'),
+    },
+
+    'CWE_1074' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1074.sqlite3'),
+    },
+
+    'CWE_1257' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1257.sqlite3'),
+    },
+
+    'CWE_506' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_506.sqlite3'),
+    },
+
+    'CWE_1113' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1113.sqlite3'),
+    },
+
+    'CWE_791' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_791.sqlite3'),
+    },
+
+    'CWE_167' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_167.sqlite3'),
+    },
+
+    'CWE_186' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_186.sqlite3'),
+    },
+
+    'CWE_1318' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1318.sqlite3'),
+    },
+
+    'CWE_464' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_464.sqlite3'),
+    },
+
+    'CWE_763' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_763.sqlite3'),
+    },
+
+    'CWE_328' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_328.sqlite3'),
+    },
+
+    'CWE_575' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_575.sqlite3'),
+    },
+
+    'CWE_473' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_473.sqlite3'),
+    },
+
+    'CWE_668' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_668.sqlite3'),
+    },
+
+    'CWE_250' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_250.sqlite3'),
+    },
+
+    'CWE_201' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_201.sqlite3'),
+    },
+
+    'CWE_352' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_352.sqlite3'),
+    },
+
+    'CWE_586' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_586.sqlite3'),
+    },
+
+    'CWE_127' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_127.sqlite3'),
+    },
+
+    'CWE_626' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_626.sqlite3'),
+    },
+
+    'CWE_241' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_241.sqlite3'),
+    },
+
+    'CWE_466' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_466.sqlite3'),
+    },
+
+    'CWE_299' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_299.sqlite3'),
+    },
+
+    'CWE_600' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_600.sqlite3'),
+    },
+
+    'CWE_402' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_402.sqlite3'),
+    },
+
+    'CWE_1022' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1022.sqlite3'),
+    },
+
+    'CWE_1191' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1191.sqlite3'),
+    },
+
+    'CWE_918' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_918.sqlite3'),
+    },
+
+    'CWE_1324' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1324.sqlite3'),
+    },
+
+    'CWE_1112' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1112.sqlite3'),
+    },
+
+    'CWE_920' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_920.sqlite3'),
+    },
+
+    'CWE_390' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_390.sqlite3'),
+    },
+
+    'CWE_236' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_236.sqlite3'),
+    },
+
+    'CWE_1293' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1293.sqlite3'),
+    },
+
+    'CWE_1037' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1037.sqlite3'),
+    },
+
+    'CWE_770' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_770.sqlite3'),
+    },
+
+    'CWE_521' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_521.sqlite3'),
+    },
+
+    'CWE_220' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_220.sqlite3'),
+    },
+
+    'CWE_266' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_266.sqlite3'),
+    },
+
+    'CWE_602' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_602.sqlite3'),
+    },
+
+    'CWE_111' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_111.sqlite3'),
+    },
+
+    'CWE_192' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_192.sqlite3'),
+    },
+
+    'CWE_311' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_311.sqlite3'),
+    },
+
+    'CWE_175' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_175.sqlite3'),
+    },
+
+    'CWE_573' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_573.sqlite3'),
+    },
+
+    'CWE_1052' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1052.sqlite3'),
+    },
+
+    'CWE_334' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_334.sqlite3'),
+    },
+
+    'CWE_459' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_459.sqlite3'),
+    },
+
+    'CWE_780' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_780.sqlite3'),
+    },
+
+    'CWE_547' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_547.sqlite3'),
+    },
+
+    'CWE_560' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_560.sqlite3'),
+    },
+
+    'CWE_789' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_789.sqlite3'),
+    },
+
+    'CWE_676' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_676.sqlite3'),
+    },
+
+    'CWE_543' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_543.sqlite3'),
+    },
+
+    'CWE_1299' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1299.sqlite3'),
+    },
+
+    'CWE_636' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_636.sqlite3'),
+    },
+
+    'CWE_823' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_823.sqlite3'),
+    },
+
+    'CWE_367' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_367.sqlite3'),
+    },
+
+    'CWE_239' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_239.sqlite3'),
+    },
+
+    'CWE_1286' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1286.sqlite3'),
+    },
+
+    'CWE_1294' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1294.sqlite3'),
+    },
+
+    'CWE_528' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_528.sqlite3'),
+    },
+
+    'CWE_539' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_539.sqlite3'),
+    },
+
+    'CWE_166' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_166.sqlite3'),
+    },
+
+    'CWE_353' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_353.sqlite3'),
+    },
+
+    'CWE_1110' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1110.sqlite3'),
+    },
+
+    'CWE_805' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_805.sqlite3'),
+    },
+
+    'CWE_561' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_561.sqlite3'),
+    },
+
+    'CWE_486' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_486.sqlite3'),
+    },
+
+    'CWE_825' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_825.sqlite3'),
+    },
+
+    'CWE_1053' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1053.sqlite3'),
+    },
+
+    'CWE_562' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_562.sqlite3'),
+    },
+
+    'CWE_567' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_567.sqlite3'),
+    },
+
+    'CWE_467' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_467.sqlite3'),
+    },
+
+    'CWE_404' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_404.sqlite3'),
+    },
+
+    'CWE_1047' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1047.sqlite3'),
+    },
+
+    'CWE_356' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_356.sqlite3'),
+    },
+
+    'CWE_1025' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1025.sqlite3'),
+    },
+
+    'CWE_386' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_386.sqlite3'),
+    },
+
+    'CWE_1078' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1078.sqlite3'),
+    },
+
+    'CWE_477' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_477.sqlite3'),
+    },
+
+    'CWE_708' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_708.sqlite3'),
+    },
+
+    'CWE_671' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_671.sqlite3'),
+    },
+
+    'CWE_507' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_507.sqlite3'),
+    },
+
+    'CWE_667' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_667.sqlite3'),
+    },
+
+    'CWE_756' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_756.sqlite3'),
+    },
+
+    'CWE_96' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_96.sqlite3'),
+    },
+
+    'CWE_122' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_122.sqlite3'),
+    },
+
+    'CWE_822' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_822.sqlite3'),
+    },
+
+    'CWE_193' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_193.sqlite3'),
+    },
+
+    'CWE_360' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_360.sqlite3'),
+    },
+
+    'CWE_420' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_420.sqlite3'),
+    },
+
+    'CWE_760' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_760.sqlite3'),
+    },
+
+    'CWE_177' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_177.sqlite3'),
+    },
+
+    'CWE_231' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_231.sqlite3'),
+    },
+
+    'CWE_82' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_82.sqlite3'),
+    },
+
+    'CWE_288' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_288.sqlite3'),
+    },
+
+    'CWE_767' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_767.sqlite3'),
+    },
+
+    'CWE_322' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_322.sqlite3'),
+    },
+
+    'CWE_259' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_259.sqlite3'),
+    },
+
+    'CWE_1223' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1223.sqlite3'),
+    },
+
+    'CWE_382' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_382.sqlite3'),
+    },
+
+    'CWE_781' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_781.sqlite3'),
+    },
+
+    'CWE_107' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_107.sqlite3'),
+    },
+
+    'CWE_365' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_365.sqlite3'),
+    },
+
+    'CWE_1224' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1224.sqlite3'),
+    },
+
+    'CWE_613' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_613.sqlite3'),
+    },
+
+    'CWE_665' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_665.sqlite3'),
+    },
+
+    'CWE_1051' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1051.sqlite3'),
+    },
+
+    'CWE_1268' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1268.sqlite3'),
+    },
+
+    'CWE_597' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_597.sqlite3'),
+    },
+
+    'CWE_498' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_498.sqlite3'),
+    },
+
+    'CWE_159' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_159.sqlite3'),
+    },
+
+    'CWE_298' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_298.sqlite3'),
+    },
+
+    'CWE_620' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_620.sqlite3'),
+    },
+
+    'CWE_1251' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1251.sqlite3'),
+    },
+
+    'CWE_624' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_624.sqlite3'),
+    },
+
+    'CWE_205' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_205.sqlite3'),
+    },
+
+    'CWE_1209' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1209.sqlite3'),
+    },
+
+    'CWE_123' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_123.sqlite3'),
+    },
+
+    'CWE_487' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_487.sqlite3'),
+    },
+
+    'CWE_691' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_691.sqlite3'),
+    },
+
+    'CWE_526' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_526.sqlite3'),
+    },
+
+    'CWE_215' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_215.sqlite3'),
+    },
+
+    'CWE_87' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_87.sqlite3'),
+    },
+
+    'CWE_1043' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1043.sqlite3'),
+    },
+
+    'CWE_1256' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1256.sqlite3'),
+    },
+
+    'CWE_1252' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1252.sqlite3'),
+    },
+
+    'CWE_640' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_640.sqlite3'),
+    },
+
+    'CWE_168' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_168.sqlite3'),
+    },
+
+    'CWE_83' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_83.sqlite3'),
+    },
+
+    'CWE_612' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_612.sqlite3'),
+    },
+
+    'CWE_768' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_768.sqlite3'),
+    },
+
+    'CWE_1297' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1297.sqlite3'),
+    },
+
+    'CWE_527' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_527.sqlite3'),
+    },
+
+    'CWE_500' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_500.sqlite3'),
+    },
+
+    'CWE_468' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_468.sqlite3'),
+    },
+
+    'CWE_1321' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1321.sqlite3'),
+    },
+
+    'CWE_294' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_294.sqlite3'),
+    },
+
+    'CWE_1234' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1234.sqlite3'),
+    },
+
+    'CWE_785' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_785.sqlite3'),
+    },
+
+    'CWE_110' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_110.sqlite3'),
+    },
+
+    'CWE_235' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_235.sqlite3'),
+    },
+
+    'CWE_341' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_341.sqlite3'),
+    },
+
+    'CWE_532' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_532.sqlite3'),
+    },
+
+    'CWE_492' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_492.sqlite3'),
+    },
+
+    'CWE_551' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_551.sqlite3'),
+    },
+
+    'CWE_148' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_148.sqlite3'),
+    },
+
+    'CWE_806' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_806.sqlite3'),
+    },
+
+    'CWE_664' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_664.sqlite3'),
+    },
+
+    'CWE_226' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_226.sqlite3'),
+    },
+
+    'CWE_430' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_430.sqlite3'),
+    },
+
+    'CWE_656' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_656.sqlite3'),
+    },
+
+    'CWE_703' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_703.sqlite3'),
+    },
+
+    'CWE_1189' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1189.sqlite3'),
+    },
+
+    'CWE_1038' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1038.sqlite3'),
+    },
+
+    'CWE_924' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_924.sqlite3'),
+    },
+
+    'CWE_374' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_374.sqlite3'),
+    },
+
+    'CWE_1274' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1274.sqlite3'),
+    },
+
+    'CWE_69' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_69.sqlite3'),
+    },
+
+    'CWE_1023' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1023.sqlite3'),
+    },
+
+    'CWE_400' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_400.sqlite3'),
+    },
+
+    'CWE_1239' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1239.sqlite3'),
+    },
+
+    'CWE_330' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_330.sqlite3'),
+    },
+
+    'CWE_149' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_149.sqlite3'),
+    },
+
+    'CWE_433' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_433.sqlite3'),
+    },
+
+    'CWE_666' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_666.sqlite3'),
+    },
+
+    'CWE_187' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_187.sqlite3'),
+    },
+
+    'CWE_574' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_574.sqlite3'),
+    },
+
+    'CWE_1073' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1073.sqlite3'),
+    },
+
+    'CWE_337' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_337.sqlite3'),
+    },
+
+    'CWE_784' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_784.sqlite3'),
+    },
+
+    'CWE_202' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_202.sqlite3'),
+    },
+
+    'CWE_611' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_611.sqlite3'),
+    },
+
+    'CWE_610' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_610.sqlite3'),
+    },
+
+    'CWE_641' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_641.sqlite3'),
+    },
+
+    'CWE_772' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_772.sqlite3'),
+    },
+
+    'CWE_587' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_587.sqlite3'),
+    },
+
+    'CWE_392' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_392.sqlite3'),
+    },
+
+    'CWE_415' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_415.sqlite3'),
+    },
+
+    'CWE_637' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_637.sqlite3'),
+    },
+
+    'CWE_470' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_470.sqlite3'),
+    },
+
+    'CWE_546' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_546.sqlite3'),
+    },
+
+    'CWE_643' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_643.sqlite3'),
+    },
+
+    'CWE_681' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_681.sqlite3'),
+    },
+
+    'CWE_277' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_277.sqlite3'),
+    },
+
+    'CWE_1235' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1235.sqlite3'),
+    },
+
+    'CWE_1058' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1058.sqlite3'),
+    },
+
+    'CWE_91' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_91.sqlite3'),
+    },
+
+    'CWE_761' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_761.sqlite3'),
+    },
+
+    'CWE_1088' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1088.sqlite3'),
+    },
+
+    'CWE_145' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_145.sqlite3'),
+    },
+
+    'CWE_162' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_162.sqlite3'),
+    },
+
+    'CWE_303' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_303.sqlite3'),
+    },
+
+    'CWE_221' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_221.sqlite3'),
+    },
+
+    'CWE_428' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_428.sqlite3'),
+    },
+
+    'CWE_707' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_707.sqlite3'),
+    },
+
+    'CWE_831' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_831.sqlite3'),
+    },
+
+    'CWE_95' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_95.sqlite3'),
+    },
+
+    'CWE_346' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_346.sqlite3'),
+    },
+
+    'CWE_1089' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1089.sqlite3'),
+    },
+
+    'CWE_318' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_318.sqlite3'),
+    },
+
+    'CWE_862' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_862.sqlite3'),
+    },
+
+    'CWE_383' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_383.sqlite3'),
+    },
+
+    'CWE_253' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_253.sqlite3'),
+    },
+
+    'CWE_293' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_293.sqlite3'),
+    },
+
+    'CWE_455' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_455.sqlite3'),
+    },
+
+    'CWE_522' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_522.sqlite3'),
+    },
+
+    'CWE_566' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_566.sqlite3'),
+    },
+
+    'CWE_104' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_104.sqlite3'),
+    },
+
+    'CWE_607' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_607.sqlite3'),
+    },
+
+    'CWE_301' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_301.sqlite3'),
+    },
+
+    'CWE_214' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_214.sqlite3'),
+    },
+
+    'CWE_77' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_77.sqlite3'),
+    },
+
+    'CWE_499' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_499.sqlite3'),
+    },
+
+    'CWE_112' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_112.sqlite3'),
+    },
+
+    'CWE_207' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_207.sqlite3'),
+    },
+
+    'CWE_494' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_494.sqlite3'),
+    },
+
+    'CWE_524' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_524.sqlite3'),
+    },
+
+    'CWE_558' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_558.sqlite3'),
+    },
+
+    'CWE_240' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_240.sqlite3'),
+    },
+
+    'CWE_565' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_565.sqlite3'),
+    },
+
+    'CWE_674' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_674.sqlite3'),
+    },
+
+    'CWE_1119' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1119.sqlite3'),
+    },
+
+    'CWE_130' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_130.sqlite3'),
+    },
+
+    'CWE_478' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_478.sqlite3'),
+    },
+
+    'CWE_351' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_351.sqlite3'),
+    },
+
+    'CWE_1278' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1278.sqlite3'),
+    },
+
+    'CWE_779' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_779.sqlite3'),
+    },
+
+    'CWE_232' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_232.sqlite3'),
+    },
+
+    'CWE_191' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_191.sqlite3'),
+    },
+
+    'CWE_1295' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1295.sqlite3'),
+    },
+
+    'CWE_1221' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1221.sqlite3'),
+    },
+
+    'CWE_1283' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1283.sqlite3'),
+    },
+
+    'CWE_287' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_287.sqlite3'),
+    },
+
+    'CWE_523' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_523.sqlite3'),
+    },
+
+    'CWE_372' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_372.sqlite3'),
+    },
+
+    'CWE_616' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_616.sqlite3'),
+    },
+
+    'CWE_863' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_863.sqlite3'),
+    },
+
+    'CWE_1127' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1127.sqlite3'),
+    },
+
+    'CWE_1176' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1176.sqlite3'),
+    },
+
+    'CWE_233' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_233.sqlite3'),
+    },
+
+    'CWE_278' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_278.sqlite3'),
+    },
+
+    'CWE_256' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_256.sqlite3'),
+    },
+
+    'CWE_908' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_908.sqlite3'),
+    },
+
+    'CWE_491' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_491.sqlite3'),
+    },
+
+    'CWE_943' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_943.sqlite3'),
+    },
+
+    'CWE_794' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_794.sqlite3'),
+    },
+
+    'CWE_113' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_113.sqlite3'),
+    },
+
+    'CWE_274' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_274.sqlite3'),
+    },
+
+    'CWE_109' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_109.sqlite3'),
+    },
+
+    'CWE_291' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_291.sqlite3'),
+    },
+
+    'CWE_1254' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1254.sqlite3'),
+    },
+
+    'CWE_209' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_209.sqlite3'),
+    },
+
+    'CWE_697' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_697.sqlite3'),
+    },
+
+    'CWE_81' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_81.sqlite3'),
+    },
+
+    'CWE_229' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_229.sqlite3'),
+    },
+
+    'CWE_396' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_396.sqlite3'),
+    },
+
+    'CWE_143' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_143.sqlite3'),
+    },
+
+    'CWE_940' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_940.sqlite3'),
+    },
+
+    'CWE_1063' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1063.sqlite3'),
+    },
+
+    'CWE_1111' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1111.sqlite3'),
+    },
+
+    'CWE_694' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_694.sqlite3'),
+    },
+
+    'CWE_1241' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1241.sqlite3'),
+    },
+
+    'CWE_308' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_308.sqlite3'),
+    },
+
+    'CWE_1269' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1269.sqlite3'),
+    },
+
+    'CWE_450' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_450.sqlite3'),
+    },
+
+    'CWE_1070' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1070.sqlite3'),
+    },
+
+    'CWE_1173' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1173.sqlite3'),
+    },
+
+    'CWE_786' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_786.sqlite3'),
+    },
+
+    'CWE_778' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_778.sqlite3'),
+    },
+
+    'CWE_1082' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1082.sqlite3'),
+    },
+
+    'CWE_832' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_832.sqlite3'),
+    },
+
+    'CWE_1231' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1231.sqlite3'),
+    },
+
+    'CWE_614' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_614.sqlite3'),
+    },
+
+    'CWE_426' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_426.sqlite3'),
+    },
+
+    'CWE_580' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_580.sqlite3'),
+    },
+
+    'CWE_941' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_941.sqlite3'),
+    },
+
+    'CWE_437' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_437.sqlite3'),
+    },
+
+    'CWE_625' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_625.sqlite3'),
+    },
+
+    'CWE_552' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_552.sqlite3'),
+    },
+
+    'CWE_401' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_401.sqlite3'),
+    },
+
+    'CWE_436' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_436.sqlite3'),
+    },
+
+    'CWE_796' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_796.sqlite3'),
+    },
+
+    'CWE_408' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_408.sqlite3'),
+    },
+
+    'CWE_939' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_939.sqlite3'),
+    },
+
+    'CWE_645' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_645.sqlite3'),
+    },
+
+    'CWE_673' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_673.sqlite3'),
+    },
+
+    'CWE_1057' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1057.sqlite3'),
+    },
+
+    'CWE_252' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_252.sqlite3'),
+    },
+
+    'CWE_1315' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1315.sqlite3'),
+    },
+
+    'CWE_1125' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_1125.sqlite3'),
+    },
+
+    'CWE_75' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_75.sqlite3'),
+    },
+
+    'CWE_151' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_151.sqlite3'),
+    },
+
+    'CWE_126' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_126.sqlite3'),
+    },
+
+    'CWE_295' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_295.sqlite3'),
+    },
+
+    'CWE_NONE' :{
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(CWE_DB_PATH, 'cwe_none.sqlite3'),
+    },
+
+}
