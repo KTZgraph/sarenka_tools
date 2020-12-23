@@ -99,7 +99,42 @@ def save_all_cve_ids_details():
 #     # return performance
 
 
-def cve_part_3():
+# def cve_part_3():
+#     starting_time = time.perf_counter()
+
+#     with open("cve_all.json") as json_file:
+#         data = json.load(json_file)
+
+#     cve_all = data["cve_all"]
+
+#     # ilosc partów na które dzielę dane do plików
+#     PARTS = (len(cve_all) // 100) + 1
+
+#     for part in range(881, PARTS):
+#         result = []
+#         start_idx = part*100
+#         end_idx = (part+1) * 100
+
+#         print("start_idx: ", start_idx, " end_idx:", end_idx)
+
+#         for cve in cve_all[start_idx:end_idx]:
+#             cve_data = NISTCVEScraper(
+#                 cve["cve_code"]).values  # dane ze scrapera
+#             cve_data.update({"year": cve["year"]})
+#             cve_data.update({"month": cve["month"]})
+#             result.append(cve_data)
+
+#         # zapisywanie danych w partycja po 100 ale ze wszystkimi szczegółami
+#         with open(f'all_cve/cve_all_details_{start_idx}_{end_idx}.json', 'w') as fp:
+#             json.dump(result, fp,  indent=4)
+
+#     performance = ending_time = time.perf_counter()
+#     print("PERFORMANCE: ",  performance)
+#     # return performance
+
+# CWE ogólne
+
+def cve_part_4():
     starting_time = time.perf_counter()
 
     with open("cve_all.json") as json_file:
@@ -110,7 +145,7 @@ def cve_part_3():
     # ilosc partów na które dzielę dane do plików
     PARTS = (len(cve_all) // 100) + 1
 
-    for part in range(881, PARTS):
+    for part in range(1204, PARTS):
         result = []
         start_idx = part*100
         end_idx = (part+1) * 100
@@ -130,9 +165,6 @@ def cve_part_3():
 
     performance = ending_time = time.perf_counter()
     print("PERFORMANCE: ",  performance)
-    # return performance
-
-# CWE ogólne
 
 
 def save_all_cwes_details():
@@ -172,4 +204,4 @@ if __name__ == "__main__":
     # save_all_cve_ids()
     # save_all_cve_ids_details() #zerwało połącznie na cve_all_details_23200_23300.json
     # save_all_cwes_details()
-    cve_part_3()
+    cve_part_4()
