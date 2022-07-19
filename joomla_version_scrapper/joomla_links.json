@@ -1,0 +1,479 @@
+[
+    {
+        "3.10.10": "https://downloads.joomla.org/cms/joomla3/3-10-10/Joomla_3-10-10-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.10.9": "https://downloads.joomla.org/cms/joomla3/3-10-9/Joomla_3-10-9-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.10.8": "https://downloads.joomla.org/cms/joomla3/3-10-8/Joomla_3-10-8-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.10.7": "https://downloads.joomla.org/cms/joomla3/3-10-7/Joomla_3-10-7-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.10.6": "https://downloads.joomla.org/cms/joomla3/3-10-6/Joomla_3-10-6-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.10.5": "https://downloads.joomla.org/cms/joomla3/3-10-5/Joomla_3-10-5-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.10.4": "https://downloads.joomla.org/cms/joomla3/3-10-4/Joomla_3-10-4-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.10.3": "https://downloads.joomla.org/cms/joomla3/3-10-3/Joomla_3-10-3-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.10.2": "https://downloads.joomla.org/cms/joomla3/3-10-2/Joomla_3-10-2-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.10.1": "https://downloads.joomla.org/cms/joomla3/3-10-1/Joomla_3-10-1-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.10.0": "https://downloads.joomla.org/cms/joomla3/3-10-0/Joomla_3-10-0-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.28": "https://downloads.joomla.org/cms/joomla3/3-9-28/Joomla_3-9-28-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.27": "https://downloads.joomla.org/cms/joomla3/3-9-27/Joomla_3-9-27-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.26": "https://downloads.joomla.org/cms/joomla3/3-9-26/Joomla_3-9-26-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.25": "https://downloads.joomla.org/cms/joomla3/3-9-25/Joomla_3-9-25-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.24": "https://downloads.joomla.org/cms/joomla3/3-9-24/Joomla_3-9-24-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.23": "https://downloads.joomla.org/cms/joomla3/3-9-23/Joomla_3-9-23-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.22": "https://downloads.joomla.org/cms/joomla3/3-9-22/Joomla_3-9-22-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.21": "https://downloads.joomla.org/cms/joomla3/3-9-21/Joomla_3-9-21-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.20": "https://downloads.joomla.org/cms/joomla3/3-9-20/Joomla_3-9-20-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.19": "https://downloads.joomla.org/cms/joomla3/3-9-19/Joomla_3-9-19-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.18": "https://downloads.joomla.org/cms/joomla3/3-9-18/Joomla_3-9-18-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.17": "https://downloads.joomla.org/cms/joomla3/3-9-17/Joomla_3-9-17-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.14": "https://downloads.joomla.org/cms/joomla3/3-9-14/Joomla_3-9-14-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.15": "https://downloads.joomla.org/cms/joomla3/3-9-15/Joomla_3-9-15-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.16": "https://downloads.joomla.org/cms/joomla3/3-9-16/Joomla_3-9-16-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.13": "https://downloads.joomla.org/cms/joomla3/3-9-13/Joomla_3-9-13-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.12": "https://downloads.joomla.org/cms/joomla3/3-9-12/Joomla_3-9-12-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.11": "https://downloads.joomla.org/cms/joomla3/3-9-11/Joomla_3-9-11-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.10": "https://downloads.joomla.org/cms/joomla3/3-9-10/Joomla_3-9-10-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.8": "https://downloads.joomla.org/cms/joomla3/3-9-8/Joomla_3-9-8-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.9": "https://downloads.joomla.org/cms/joomla3/3-9-9/Joomla_3-9-9-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.7": "https://downloads.joomla.org/cms/joomla3/3-9-7/Joomla_3-9-7-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.6": "https://downloads.joomla.org/cms/joomla3/3-9-6/Joomla_3-9-6-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.5": "https://downloads.joomla.org/cms/joomla3/3-9-5/Joomla_3-9-5-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.4": "https://downloads.joomla.org/cms/joomla3/3-9-4/Joomla_3-9-4-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.3": "https://downloads.joomla.org/cms/joomla3/3-9-3/Joomla_3-9-3-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.2": "https://downloads.joomla.org/cms/joomla3/3-9-2/Joomla_3-9-2-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.9.1": "https://downloads.joomla.org/cms/joomla3/3-9-1/joomla_3-9-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.9.0": "https://downloads.joomla.org/cms/joomla3/3-9-0/joomla_3-9-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.8.13": "https://downloads.joomla.org/cms/joomla3/3-8-13/Joomla_3-8-13-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.12": "https://downloads.joomla.org/cms/joomla3/3-8-12/Joomla_3-8-12-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.11": "https://downloads.joomla.org/cms/joomla3/3-8-11/Joomla_3-8-11-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.10": "https://downloads.joomla.org/cms/joomla3/3-8-10/Joomla_3-8-10-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.9": "https://downloads.joomla.org/cms/joomla3/3-8-9/Joomla_3-8-9-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.8": "https://downloads.joomla.org/cms/joomla3/3-8-8/Joomla_3-8-8-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.7": "https://downloads.joomla.org/cms/joomla3/3-8-7/Joomla_3-8-7-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.6": "https://downloads.joomla.org/cms/joomla3/3-8-6/Joomla_3-8-6-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.5": "https://downloads.joomla.org/cms/joomla3/3-8-5/Joomla_3-8-5-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.4": "https://downloads.joomla.org/cms/joomla3/3-8-4/Joomla_3-8-4-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.3": "https://downloads.joomla.org/cms/joomla3/3-8-3/Joomla_3-8-3-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.2": "https://downloads.joomla.org/cms/joomla3/3-8-2/Joomla_3-8-2-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.8.1": "https://downloads.joomla.org/cms/joomla3/3-8-1/joomla_3-8-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.8.0": "https://downloads.joomla.org/cms/joomla3/3-8-0/joomla_3-8-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.7.5": "https://downloads.joomla.org/cms/joomla3/3-7-5/Joomla_3-7.5-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.7.4": "https://downloads.joomla.org/cms/joomla3/3-7-4/Joomla_3-7.4-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.7.3": "https://downloads.joomla.org/cms/joomla3/3-7-3/Joomla_3.7.3-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.7.2": "https://downloads.joomla.org/cms/joomla3/3-7-2/Joomla_3-7-2-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "3.7.1": "https://downloads.joomla.org/cms/joomla3/3-7-1/joomla_3-7-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.6.5": "https://downloads.joomla.org/cms/joomla3/3-6-5/joomla_3-6-5-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.7.0": "https://downloads.joomla.org/cms/joomla3/3-7-0/joomla_3-7-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.6.4": "https://downloads.joomla.org/cms/joomla3/3-6-4/joomla_3-6-4-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.6.3": "https://downloads.joomla.org/cms/joomla3/3-6-3/joomla_3-6-3-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.6.2": "https://downloads.joomla.org/cms/joomla3/3-6-2/joomla_3-6-2-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.6.1": "https://downloads.joomla.org/cms/joomla3/3-6-1/joomla_3-6-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.5.1": "https://downloads.joomla.org/cms/joomla3/3-5-1/joomla_3-5-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.6.0": "https://downloads.joomla.org/cms/joomla3/3-6-0/joomla_3-6-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.5.0": "https://downloads.joomla.org/cms/joomla3/3-5-0/joomla_3-5-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.4.8": "https://downloads.joomla.org/cms/joomla3/3-4-8/joomla_3-4-8-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.4.7": "https://downloads.joomla.org/cms/joomla3/3-4-7/joomla_3-4-7-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.4.6": "https://downloads.joomla.org/cms/joomla3/3-4-6/joomla_3-4-6-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.4.5": "https://downloads.joomla.org/cms/joomla3/3-4-5/joomla_3-4-5-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.4.4": "https://downloads.joomla.org/cms/joomla3/3-4-4/joomla_3-4-4-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.4.3": "https://downloads.joomla.org/cms/joomla3/3-4-3/joomla_3-4-3-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.4.2": "https://downloads.joomla.org/cms/joomla3/3-4-2/joomla_3-4-2-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.4.1": "https://downloads.joomla.org/cms/joomla3/3-4-1/joomla_3-4-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.4.0": "https://downloads.joomla.org/cms/joomla3/3-4-0/joomla_3-4-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.3.6": "https://downloads.joomla.org/cms/joomla3/3-3-6/joomla_3-3-6-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.3.5": "https://downloads.joomla.org/cms/joomla3/3-3-5/joomla_3-3-5-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.3.4": "https://downloads.joomla.org/cms/joomla3/3-3-4/joomla_3-3-4-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.3.3": "https://downloads.joomla.org/cms/joomla3/3-3-3/joomla_3-3-3-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.3.2": "https://downloads.joomla.org/cms/joomla3/3-3-2/joomla_3-3-2-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.3.1": "https://downloads.joomla.org/cms/joomla3/3-3-1/joomla_3-3-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.3.0": "https://downloads.joomla.org/cms/joomla3/3-3-0/joomla_3-3-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.2.7": "https://downloads.joomla.org/cms/joomla3/3-2-7/joomla_3-2-7-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.2.6": "https://downloads.joomla.org/cms/joomla3/3-2-6/joomla_3-2-6-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.2.5": "https://downloads.joomla.org/cms/joomla3/3-2-5/joomla_3-2-5-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.2.4": "https://downloads.joomla.org/cms/joomla3/3-2-4/joomla_3-2-4-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.2.3": "https://downloads.joomla.org/cms/joomla3/3-2-3/joomla_3-2-3-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.2.2": "https://downloads.joomla.org/cms/joomla3/3-2-2/joomla_3-2-2-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.2.1": "https://downloads.joomla.org/cms/joomla3/3-2-1/joomla_3-2-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.2.0": "https://downloads.joomla.org/cms/joomla3/3-2-0/joomla_3-2-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.1.6": "https://downloads.joomla.org/cms/joomla3/3-1-6/joomla_3-1-6-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.1.5": "https://downloads.joomla.org/cms/joomla3/3-1-5/joomla_3-1-5-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.1.4": "https://downloads.joomla.org/cms/joomla3/3-1-4/joomla_3-1-4-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.1.3": null
+    },
+    {
+        "3.1.2": null
+    },
+    {
+        "3.1.1": "https://downloads.joomla.org/cms/joomla3/3-1-1/joomla_3-1-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.1.0": "https://downloads.joomla.org/cms/joomla3/3-1-0/joomla_3-1-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.0.4": "https://downloads.joomla.org/cms/joomla3/3-0-4/joomla_3-0-4-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.0.3": "https://downloads.joomla.org/cms/joomla3/3-0-3/joomla_3-0-3-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.0.2": "https://downloads.joomla.org/cms/joomla3/3-0-2/joomla_3-0-2-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.0.1": "https://downloads.joomla.org/cms/joomla3/3-0-1/joomla_3-0-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "3.0.0": "https://downloads.joomla.org/cms/joomla3/3-0-0/joomla_3-0-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.28": "https://downloads.joomla.org/cms/joomla25/2-5-28/joomla_2-5-28-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.27": "https://downloads.joomla.org/cms/joomla25/2-5-27/joomla_2-5-27-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.26": "https://downloads.joomla.org/cms/joomla25/2-5-26/joomla_2-5-26-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.25": "https://downloads.joomla.org/cms/joomla25/2-5-25/joomla_2-5-25-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.24": "https://downloads.joomla.org/cms/joomla25/2-5-24/joomla_2-5-24-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.23": "https://downloads.joomla.org/cms/joomla25/2-5-23/joomla_2-5-23-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.22": "https://downloads.joomla.org/cms/joomla25/2-5-22/joomla_2-5-22-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.21": "https://downloads.joomla.org/cms/joomla25/2-5-21/joomla_2-5-21-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.20": "https://downloads.joomla.org/cms/joomla25/2-5-20/joomla_2-5-20-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.19": "https://downloads.joomla.org/cms/joomla25/2-5-19/joomla_2-5-19-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.18": "https://downloads.joomla.org/cms/joomla25/2-5-18/joomla_2-5-18-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.17": "https://downloads.joomla.org/cms/joomla25/2-5-17/joomla_2-5-17-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.16": "https://downloads.joomla.org/cms/joomla25/2-5-16/joomla_2-5-16-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.15": "https://downloads.joomla.org/cms/joomla25/2-5-15/joomla_2-5-15-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.14": "https://downloads.joomla.org/cms/joomla25/2-5-14/joomla_2-5-14-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.13": "https://downloads.joomla.org/cms/joomla25/2-5-13/joomla_2-5-13-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.12": null
+    },
+    {
+        "2.5.11": "https://downloads.joomla.org/cms/joomla25/2-5-11/joomla_2-5-11-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.10": "https://downloads.joomla.org/cms/joomla25/2-5-10/joomla_2-5-10-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.9": "https://downloads.joomla.org/cms/joomla25/2-5-9/joomla_2-5-9-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.8": "https://downloads.joomla.org/cms/joomla25/2-5-8/joomla_2-5-8-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.7": "https://downloads.joomla.org/cms/joomla25/2-5-7/joomla_2-5-7-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.6": "https://downloads.joomla.org/cms/joomla25/2-5-6/joomla_2-5-6-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.5": "https://downloads.joomla.org/cms/joomla25/2-5-5/joomla_2-5-5-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.4": "https://downloads.joomla.org/cms/joomla25/2-5-4/joomla_2-5-4-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.3": "https://downloads.joomla.org/cms/joomla25/2-5-3/joomla_2-5-3-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.2": "https://downloads.joomla.org/cms/joomla25/2-5-2/joomla_2-5-2-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.1": "https://downloads.joomla.org/cms/joomla25/2-5-1/joomla_2-5-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "2.5.0": "https://downloads.joomla.org/cms/joomla25/2-5-0/joomla_2-5-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.7.5": "https://downloads.joomla.org/cms/joomla25/1-7-5/joomla_1-7-5-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.7.4": "https://downloads.joomla.org/cms/joomla25/1-7-4/joomla_1-7-4-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.7.3": "https://downloads.joomla.org/cms/joomla25/1-7-3/joomla_1-7-3-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.7.2": "https://downloads.joomla.org/cms/joomla25/1-7-2/joomla_1-7-2-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.7.1": "https://downloads.joomla.org/cms/joomla25/1-7-1/joomla_1-7-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.7.0": "https://downloads.joomla.org/cms/joomla25/1-7-0/joomla_1-7-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.6.6": "https://downloads.joomla.org/cms/joomla25/1-6-6/joomla_1-6-6-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.6.5": "https://downloads.joomla.org/cms/joomla25/1-6-5/joomla_1-6-5-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.6.4": "https://downloads.joomla.org/cms/joomla25/1-6-4/joomla_1-6-4-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.6.3": "https://downloads.joomla.org/cms/joomla25/1-6-3/joomla_1-6-3-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.6.2": "https://downloads.joomla.org/cms/joomla25/1-6-2/joomla_1-6-2-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.6.1": "https://downloads.joomla.org/cms/joomla25/1-6-1/joomla_1-6-1-stable-full_package-zip?format=zip"
+    },
+    {
+        "1.6.0": "https://downloads.joomla.org/cms/joomla25/1-6-0/joomla_1-6-0-stable-full_package-zip?format=zip"
+    },
+    {
+        "4.1.5": "https://downloads.joomla.org/cms/joomla4/4-1-5/Joomla_4-1-5-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.1.4": "https://downloads.joomla.org/cms/joomla4/4-1-4/Joomla_4-1-4-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.1.3": "https://downloads.joomla.org/cms/joomla4/4-1-3/Joomla_4-1-3-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.1.2": "https://downloads.joomla.org/cms/joomla4/4-1-2/Joomla_4-1-2-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.1.1": "https://downloads.joomla.org/cms/joomla4/4-1-1/Joomla_4-1-1-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.1.0": "https://downloads.joomla.org/cms/joomla4/4-1-0/Joomla_4-1-0-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.0.6": "https://downloads.joomla.org/cms/joomla4/4-0-6/Joomla_4-0-6-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.0.5": "https://downloads.joomla.org/cms/joomla4/4-0-5/Joomla_4-0-5-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.0.4": "https://downloads.joomla.org/cms/joomla4/4-0-4/Joomla_4-0-4-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.0.3": "https://downloads.joomla.org/cms/joomla4/4-0-3/Joomla_4-0-3-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.0.2": "https://downloads.joomla.org/cms/joomla4/4-0-2/Joomla_4-0-2-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.0.1": "https://downloads.joomla.org/cms/joomla4/4-0-1/Joomla_4-0-1-Stable-Full_Package.zip?format=zip"
+    },
+    {
+        "4.0.0": "https://downloads.joomla.org/cms/joomla4/4-0-0/Joomla_4-0-0-Stable-Full_Package.zip?format=zip"
+    }
+]
