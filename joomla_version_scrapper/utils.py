@@ -24,10 +24,10 @@ def download_zip_file(URL: str, filename: str) -> str:
     return filename
 
 
-def unzip_package(zip_filename: str) -> list[Optional[str]]:
+def unzip_package(zip_filename: str, extract_destination="./") -> list[Optional[str]]:
     with zipfile.ZipFile(zip_filename, "r") as zip_ref:
         extracted_file_names = zip_ref.namelist()
-        zip_ref.extractall("./")
+        zip_ref.extractall(extract_destination)
 
     return extracted_file_names
 
