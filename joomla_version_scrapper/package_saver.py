@@ -57,6 +57,7 @@ class PackageSaver:
         src_dir: str,
     ) -> list[str]:
         for platform_filepath in platform_files:
+            # TODO - kopiowanie plików
             src_filepath = f"{src_dir}/{platform_filepath}"
             # print("src_filepath:", src_filepath)
             dst_filepath = (
@@ -81,6 +82,8 @@ class PackageSaver:
 
         os.remove(zip_filepath)
 
+
+# TODO sprawdzanie zawartości plików z pól
 
 if __name__ == "__main__":
     result = PackageSaver("joomla_links.json").save_zip(
