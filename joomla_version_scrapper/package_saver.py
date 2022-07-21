@@ -4,26 +4,62 @@ import shutil
 
 
 class PackageSaver:
-    def __init__(self, filepath: str, output_dir: str = "output_joomla") -> None:
-        self.data = utils.get_dict_from_json_file(filepath)
-        self.output_dir = output_dir
-        self.platform_files_dir = "joomla_platform"
-        # ściezka na pobrane zipy
-        if not os.path.isdir(self.output_dir):
-            os.mkdir(self.output_dir)
+    def __init__(self, src_filepath: str) -> None:
+        self.url_list: list[dict[str, str]
+                            ] = utils.get_dict_from_json_file(src_filepath)
+        self.tmp_dir = "output_tmp"
+        self.dst_dir = "output_joomla"
+        utils.create_dir_if_not_exists(self.tmp_dir)
+        utils.create_dir_if_not_exists(self.dst_dir)
 
-        # scieżka na striukturę plików platform.php
-        if not os.path.isdir(self.platform_files_dir):
-            os.mkdir(self.platform_files_dir)
+        self.save()
 
-    def parse_info(self, version_info: dict[str, str]) -> dict[str, str]:
-        for version_number, url in version_info.items():
-            zip_filename = url.split("/")[-1].split("?")[0]
-            joomla_dir_name = zip_filename.split(".")[0]
+    def save(self):
+        # FIXME zrobić dla całej listy
+        for element in self.url_list[:2]:
+            for version, link in element.items():
+                print(version, link)
+                # zip_filepath = "Joomla_3-10-10-Stable-Full_Package.zip"
+                zip_filepath = self.downlad_zip(link)
+                # Joomla_3-10-10-Stable-Full_Package
+                unpacked_fileapth = zip_filepath.split(".")[0]
+                files = utils.unzip_package(zip_filepath, unpacked_fileapth)
+                os.remove(zip_filepath)
 
-            return version_number, url, zip_filename, joomla_dir_name
+                platform_filepaths = self.get_platform_files(
+                    files)  # tylko pliki platform
+                self.save_platform_files(unpacked_fileapth, platform_filepaths)
+                # usuwanie na końcu pobranych rzeczy
+                os.remove(unpacked_fileapth)
 
-    def get_platform_file(self, extracted_files_info: list[str]):
+    def save_platform_files(self, unpacked_fileapth: str,  platform_files: list[str]):
+        for p_filepath in platform_files:
+            # tworzenie folderu na wyakowaną joomle
+            utils.create_dir_if_not_exists(unpacked_fileapth)
+            concrete_joomla_dir = unpacked_fileapth.split('/')[-1]
+            # print("concrete_joomla_dir: ", concrete_joomla_dir)
+
+            structure = utils.get_folder_structure(p_filepath)
+            structure = [
+                f"{self.dst_dir}/{concrete_joomla_dir}/{i}" for i in structure]
+
+            structure.insert(0, f"{self.dst_dir}/{concrete_joomla_dir}")
+            structure.insert(0, self.dst_dir)
+
+            utils.create_folder_structure(structure)
+
+            final_src_filepath = f"{self.tmp_dir}/{concrete_joomla_dir}/{p_filepath}"
+            final_dst_filepath = f"{self.dst_dir}/{concrete_joomla_dir}/{p_filepath}"
+
+            shutil.copy2(final_src_filepath, final_dst_filepath)
+
+    def downlad_zip(self, URL: str) -> str:
+        filename = URL.split("/")[-1].split('?')[0]
+        dst_filepath = f"{self.tmp_dir}/{filename}"
+        utils.download_zip_file(URL, dst_filepath)
+        return dst_filepath
+
+    def get_platform_files(self, extracted_files_info: list[str]):
         # w plikach platform.php są informację o wersjach
         platform_files = []
         for filepath in extracted_files_info:
@@ -31,66 +67,6 @@ class PackageSaver:
                 platform_files.append(filepath)
         return platform_files
 
-    def get_folder_structure(self, dst_filepath: str):
-        folders_list = dst_filepath.split("/")
-        f_length = len(folders_list)
-        structure = []
-        for deph in range(f_length):
-            # WARNING zagnieżdzenia straszne
-            tmp_path = [folders_list[i] for i in range(deph)]
-            tmp_path = ("/").join(tmp_path)
-            if tmp_path != "":
-                structure.append(tmp_path)
-
-        return structure
-
-    def create_folder_structure(self, dst_filepath: str):
-        structure = self.get_folder_structure(dst_filepath)
-        for path_s in structure:
-            if not os.path.isdir(path_s):
-                os.mkdir(path_s)
-
-    def copy_platform_files(
-        self,
-        joomla_dir_name: str,
-        platform_files: list[str],
-        src_dir: str,
-    ) -> list[str]:
-        for platform_filepath in platform_files:
-            # TODO - kopiowanie plików
-            src_filepath = f"{src_dir}/{platform_filepath}"
-            # print("src_filepath:", src_filepath)
-            dst_filepath = (
-                f"{self.platform_files_dir}/{joomla_dir_name}/{platform_filepath}"
-            )
-            # print("dst_filepath:", dst_filepath)
-
-            self.create_folder_structure(dst_filepath)
-
-            # shutil.copy(, )
-
-    def save_zip(self, version_info: dict[str, str]) -> str:
-        version, url, zip_filename, joomla_dir_name = self.parse_info(version_info)
-        zip_filepath = utils.download_zip_file(url, f"{self.output_dir}/{zip_filename}")
-
-        extract_dst = f"{self.output_dir}/{joomla_dir_name}"
-
-        extracted_file_names = utils.unzip_package(zip_filepath, extract_dst)
-        platform_files = self.get_platform_file(extracted_file_names)
-
-        self.copy_platform_files(joomla_dir_name, platform_files, src_dir=extract_dst)
-
-        os.remove(zip_filepath)
-
-
-# TODO sprawdzanie zawartości plików z pól
 
 if __name__ == "__main__":
-    result = PackageSaver("joomla_links.json").save_zip(
-        # {
-        #     "3.10.9": "https://downloads.joomla.org/cms/joomla3/3-10-9/Joomla_3-10-9-Stable-Full_Package.zip?format=zip"
-        # }
-        {
-            "3.10.6": "https://downloads.joomla.org/cms/joomla3/3-10-6/Joomla_3-10-6-Stable-Full_Package.zip?format=zip"
-        }
-    )
+    PackageSaver("joomla_links.json")
